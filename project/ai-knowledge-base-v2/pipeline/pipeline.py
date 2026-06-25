@@ -346,12 +346,13 @@ def analyze_items(
         ``tags``, and ``score`` fields.
     """
     try:
-        from model_client import create_provider, chat_with_retry  # noqa: F401
-    except ImportError:
+        from pipeline.model_client import create_provider, chat_with_retry  # noqa: F401
+    except (ImportError, ModuleNotFoundError):
         logger.warning(
-            "model_client模块未找到，跳过分析步骤。\n"
+            "model_client 模块未找到或 API Key 未配置，跳过分析。\n"
             "请确保 model_client.py 与 pipeline.py 在同一目录下，"
             "并配置好 API Key。",
+            exc_info=True,
         )
         enriched: list[dict[str, Any]] = [
             {
