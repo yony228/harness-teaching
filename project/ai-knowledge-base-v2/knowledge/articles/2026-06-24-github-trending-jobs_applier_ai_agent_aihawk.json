@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260624-b74ecf78",
+  "title": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+  "summary": "AIHawk aims to easy job hunt process by automating the job application process. Utilizing artificial intelligence, it enables users to apply for multiple jobs in a tailored way.",
+  "tags": [
+    "agent",
+    "application-resume",
+    "artificial-intelligence",
+    "automate",
+    "automation"
+  ],
+  "score": 0,
+  "status": "draft",
+  "created_at": "2026-06-24T12:50:27Z",
+  "updated_at": "2026-06-24T12:50:27Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 29938,
+    "original_name": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+    "language": "Python",
+    "highlights": []
+  }
+}

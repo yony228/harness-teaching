@@ -1,0 +1,25 @@
+{
+  "id": "gith-b6f19d5a",
+  "title": "rasbt/LLMs-from-scratch",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/rasbt/LLMs-from-scratch",
+  "summary": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+  "tags": [
+    "ai",
+    "artificial-intelligence",
+    "attention-mechanism",
+    "deep-learning",
+    "finetuning"
+  ],
+  "score": 0,
+  "status": "draft",
+  "created_at": "2026-06-24T12:50:27Z",
+  "updated_at": "2026-06-24T12:50:27Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 97624,
+    "original_name": "rasbt/LLMs-from-scratch",
+    "language": "Jupyter Notebook",
+    "highlights": []
+  }
+}

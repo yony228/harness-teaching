@@ -1,0 +1,93 @@
+# RSS 知识库数据源配置
+# 概要：name / url / category / label
+
+# 四种 agent / url / label /
+
+# ----------------------------------------------------------------------
+# 综合技术
+
+- name: "Hacker News Best (AI 相关)"
+  url: "https://hnrss.org/best?points=50"
+  category: "tech"
+  label: "hacker-news-best"
+  desc: "Hacker News 内前 50 条"
+  enabled: true
+
+- name: "Hacker News Front (AI 相关)"
+  url: "https://hnrss.org/front?points=50"
+  category: "tech"
+  label: "hacker-news-front"
+  desc: "HN 前 50 条"
+  enabled: true
+
+# ----------------------------------------------------------------------
+# 公司/实验室
+
+- name: "arXiv cs.AI"
+  url: "https://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&max_results=20"
+  category: "arxiv"
+  label: "arxiv-ai"
+  desc: "arXiv cs.AI 最新投稿（按提交时间排序，最多 20 条）"
+  enabled: true
+
+- name: "arXiv cs.LG"
+  url: "https://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&max_results=20"
+  category: "arxiv"
+  label: "arxiv-cs-lg"
+  desc: "arXiv cs.LG 最新投稿（按提交时间排序，最多 20 条）"
+  enabled: true
+
+- name: "arXiv cs.CL"
+  url: "https://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&max_results=20"
+  category: "arxiv"
+  label: "arxiv-cs-cl"
+  desc: "arXiv cs.CL 最新投稿（按提交时间排序，最多 20 条）"
+  enabled: true
+
+- name: "arXiv cs.CV"
+  url: "https://export.arxiv.org/api/query?search_query=cat:cs.CV&sortBy=submittedDate&max_results=20"
+  category: "arxiv"
+  label: "arxiv-cs-cv"
+  desc: "arXiv cs.CV 最新投稿（按提交时间排序，最多 20 条）"
+  enabled: true
+
+# ----------------------------------------------------------------------
+# 公司博客
+
+- name: "OpenAI Blog"
+  url: "https://openai.com/blog/rss.xml"
+  category: "company"
+  label: "openai"
+  desc: "OpenAI 官方博客"
+  enabled: false
+
+- name: "Anthropic Website"
+  url: "https://www.anthropic.com/rss.xml"
+  category: "company"
+  label: "anthropic"
+  desc: "Anthropic 公司官网"
+  enabled: false
+
+- name: "Hugging Face Blog"
+  url: "https://huggingface.co/blog/feed.xml"
+  category: "company"
+  label: "huggingface"
+  desc: "Hugging Face 官方博客"
+  enabled: false
+
+# ----------------------------------------------------------------------
+# 中文社区
+
+- name: "机器之心"
+  url: "https://www.jiqizhixin.com/rss"
+  category: "chinese"
+  label: "jiqizhixin"
+  desc: "机器之心 AI 每日精选"
+  enabled: false
+
+- name: "量子位"
+  url: "https://www.qbitai.com/feed"
+  category: "chinese"
+  label: "quantumdai"
+  desc: "量子位 AI 精选集成"
+  enabled: false

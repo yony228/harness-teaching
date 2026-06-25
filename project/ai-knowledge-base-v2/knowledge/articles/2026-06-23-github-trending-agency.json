@@ -1,0 +1,28 @@
+{
+  "id": "d4e5f678-9012-3456-defg-234567890123",
+  "title": "Agency — 轻量Actor 模型多Agent 框架",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/operand/agency",
+  "summary": "Agency 是一个极致轻量的多Agent 协作框架，仅约 3,400 行代码实现 Actor 模型驱动的多Agent 状态隔离与生命周期管理。每个Agent 作为独立 Actor 运行，拥有独立状态、任务队列与生命周期。支持 TypeScript 热重载，配置文件驱动模块化架构，无需重新编译即可更改Agent 编排，适合希望对接现有系统的轻量级场景。",
+  "tags": [
+    "agency",
+    "actor-model",
+    "multi-agent-system",
+    "hot-reload",
+    "agentic-ai"
+  ],
+  "status": "published",
+  "created_at": "2026-06-23T10:00:00Z",
+  "updated_at": "2026-06-23T10:00:00Z",
+  "publish_channels": ["telegram", "feishu"],
+  "metadata": {
+    "stars": 486,
+    "original_name": "operand/agency",
+    "score": 6,
+    "highlights": [
+      "极致轻量：仅约 3,400 行代码实现多Agent 协作",
+      "Actor 模型天然支持多Agent 状态隔离与生命周期管理",
+      "TypeScript 热重载，配置文件驱动无需重新编译"
+    ]
+  }
+}

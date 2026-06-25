@@ -1,0 +1,22 @@
+{
+  "id": "gith-20260624-ade4641c",
+  "title": "jingyaogong/minimind",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/jingyaogong/minimind",
+  "summary": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
+  "tags": [
+    "artificial-intelligence",
+    "large-language-model"
+  ],
+  "score": 0,
+  "status": "draft",
+  "created_at": "2026-06-24T12:50:27Z",
+  "updated_at": "2026-06-24T12:50:27Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 52155,
+    "original_name": "jingyaogong/minimind",
+    "language": "Python",
+    "highlights": []
+  }
+}

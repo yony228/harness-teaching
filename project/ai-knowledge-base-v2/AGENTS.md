@@ -107,13 +107,13 @@ project/ai-knowledge-base-v1/
 ## 5. 知识条目 JSON 格式
 ```json
 {
-  "id": "uuid-v4-string",
+  "id": "github-20260317-001",
   "title": "GPT-4 多模态能力突破",
   "source_type": "github_trending | hacker_news",
   "source_url": "https://github.com/xxx/yyy",
   "summary": "简短描述技术亮点（50-200字）",
   "tags": ["llm", "multimodal", "openai"],
-  "status": "collected | analyzing | published | archived",
+  "status": "draft | review | published | archived",
   "created_at": "2024-01-15T08:30:00Z",
   "updated_at": "2024-01-15T09:00:00Z",
   "publish_channels": ["telegram", "feishu"],

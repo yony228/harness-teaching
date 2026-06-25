@@ -1,0 +1,29 @@
+{
+  "id": "a1b2c3d4-5e6f-7890-abcd-ef1234567890",
+  "title": "Haystack — 生产级 LLM 全链路编排框架",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/deepset-ai/haystack",
+  "summary": "Haystack 是目前 Star 数最高的开源 LLM 编排框架（累计 25,600+ 星标），自 2019 年创建以来持续高强度迭代，覆盖 RAG、Agent 编排、多模态处理与语义检索全链路。作为唯一提供检索-路由-记忆-生成完整闭环的全能框架，它以 Apache 2.0 许可、无厂商绑定，成为 Python 生态内最广泛的 AI 基础设施项目。",
+  "tags": [
+    "haystack",
+    "llm-orchestration",
+    "rag",
+    "agent-framework",
+    "multi-modal",
+    "production-ai"
+  ],
+  "status": "published",
+  "created_at": "2026-06-23T10:00:00Z",
+  "updated_at": "2026-06-23T10:00:00Z",
+  "publish_channels": ["telegram", "feishu"],
+  "metadata": {
+    "stars": 25600,
+    "original_name": "deepset-ai/haystack",
+    "score": 9,
+    "highlights": [
+      "运营 6 年仍保持高频更新，累计 25,600+ 星标、2,877 分叉",
+      "唯一提供检索-路由-记忆-生成完整闭环的全能编排框架",
+      "Apache 2.0 开源许可，企业采用门槛最低"
+    ]
+  }
+}
