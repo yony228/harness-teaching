@@ -8,10 +8,6 @@ on:
 permissions:
   contents: write
 
-defaults:
-  run:
-    working-directory: project/ai-knowledge-base-v2
-
 jobs:
   collect:
     runs-on: ubuntu-latest
@@ -38,14 +34,24 @@ jobs:
           OPENAI_API_KEY: "${{ secrets.OPENAI_API_KEY }}"
 
       - name: Validate article JSON
-        run: python hooks/validate_json.py knowledge/raw/*.json
+        run: |
+          if ls knowledge/articles/*.json 1>/dev/null 2>&1; then
+            python hooks/validate_json.py knowledge/articles/*.json
+          else
+            echo "knowledge/articles 为空，跳过校验 (首次运行)."
+          fi
 
       - name: Check article quality
-        run: python hooks/check_quality.py knowledge/raw/*.json
+        run: |
+          if ls knowledge/articles/*.json 1>/dev/null 2>&1; then
+            python hooks/check_quality.py knowledge/articles/*.json
+          else
+            echo "knowledge/articles 为空，跳过质量检查 (首次运行)."
+          fi
 
       - name: Commit and push new articles
         run: |
-          NEW_COUNT=$(git status --porcelain | grep "knowledge/raw/" | wc -l | tr -d " ") || true
+          NEW_COUNT=$(git status --porcelain | grep "knowledge/" | wc -l | tr -d " ") || true
           TODAY=$(date -u +"%Y%m%d")
 
           # Exit early if no new articles
