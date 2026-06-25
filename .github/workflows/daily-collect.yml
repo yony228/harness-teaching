@@ -5,6 +5,10 @@ on:
     - cron: "0 8 * * *"
   workflow_dispatch:
 
+defaults:
+  run:
+    working-directory: project/ai-knowledge-base-v2
+
 permissions:
   contents: write
 
