@@ -385,6 +385,13 @@ def analyze_items(
         prompt = _build_analysis_prompt(item)
 
         try:
+            logger.debug(
+                "LLM调用 [%d/%d]: %s\n  提示: %s",
+                idx,
+                len(items),
+                item.get("name", ""),
+                prompt[:200],
+            )
             result = chat_with_retry(
                 prompt, verbose_logging=verbose,
             )
@@ -394,6 +401,13 @@ def analyze_items(
                 parsed = _parse_llm_json(result)
             else:
                 parsed = result
+
+            logger.debug(
+                "LLM返回: 类型=%s, isinstance(dict): %s, 内容=%s",
+                type(result).__name__,
+                isinstance(parsed, dict),
+                str(result)[:300],
+            )
 
             if isinstance(parsed, dict):
                 enriched.append(
