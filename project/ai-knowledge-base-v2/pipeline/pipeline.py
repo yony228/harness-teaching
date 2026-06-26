@@ -344,19 +344,12 @@ def analyze_items(
         Enriched list of items with ``title``, ``summary``,
         ``tags``, and ``score`` fields.
     """
+    _mc_parent = BASE_DIR / "pipeline"
+    if str(_mc_parent) not in sys.path:
+        sys.path.insert(0, str(_mc_parent))
     try:
-        # When run as `python pipeline/pipeline.py`, pipeline is not a package,
-        # so `from pipeline.model_client import ...` fails.
-        # Use importlib to resolve alongside the script file itself.
-        _mc_path = BASE_DIR / "pipeline" / "model_client.py"
-        spec = __import__("importlib.util").util.spec_from_file_location(
-            "model_client", _mc_path,
-        )
-        model_client = (
-            __import__("importlib.util").util.module_from_spec(spec)
-        )
-        spec.loader.exec_module(model_client)  # type: ignore[union-attr]
-    except (ImportError, ModuleNotFoundError, Exception) as exc:
+        from model_client import create_provider, chat_with_retry  # noqa: F401
+    except (ImportError, ModuleNotFoundError) as exc:
         logger.warning(
             "model_client 模块加载失败或 API Key 未配置，使用基础分析跳过。\n"
             "如需 AI 分析，请确保 model_client.py 已正确配置并设置 LLM_API_KEY。",
@@ -379,7 +372,9 @@ def analyze_items(
         prompt = _build_analysis_prompt(item)
 
         try:
-            result = model_client.chat_with_retry(prompt, verbose_logging=verbose)
+            result = chat_with_retry(
+                prompt, verbose_logging=verbose,
+            )
 
             # Try to parse as JSON first
             if isinstance(result, str):
