@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260626-009",
+  "title": "microsoft/AI-For-Beginners",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/microsoft/AI-For-Beginners",
+  "summary": "12 Weeks, 24 Lessons, AI for All!",
+  "tags": [
+    "ai",
+    "artificial-intelligence",
+    "cnn",
+    "computer-vision",
+    "deep-learning"
+  ],
+  "score": 10,
+  "status": "draft",
+  "created_at": "2026-06-26T03:01:04Z",
+  "updated_at": "2026-06-26T03:01:04Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 48454,
+    "original_name": "microsoft/AI-For-Beginners",
+    "language": "Jupyter Notebook",
+    "highlights": []
+  }
+}
