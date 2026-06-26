@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260626-019",
+  "title": "simstudioai/sim",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/simstudioai/sim",
+  "summary": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
+  "tags": [
+    "agent-workflow",
+    "agentic-workflow",
+    "agents",
+    "ai",
+    "aiagents"
+  ],
+  "score": 10,
+  "status": "draft",
+  "created_at": "2026-06-26T03:10:25Z",
+  "updated_at": "2026-06-26T03:10:25Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 28866,
+    "original_name": "simstudioai/sim",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
