@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260626-016",
+  "title": "PyTorch Lightning：零代码变更实现多GPU训练与微调",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Lightning-AI/pytorch-lightning",
+  "summary": "PyTorch Lightning是一个轻量级PyTorch高层封装库，支持从单GPU到万级GPU集群的预训练与微调，无需修改模型代码。它内置训练循环、优化器调度、日志记录等功能，极大简化深度学习开发流程。该项目获31k+星标，是AI训练领域广泛采用的优秀开源工具。",
+  "tags": [
+    "fine-tuning",
+    "deployment"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-06-26T05:42:21Z",
+  "updated_at": "2026-06-26T05:42:21Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 31203,
+    "original_name": "Lightning-AI/pytorch-lightning",
+    "language": "Python",
+    "highlights": []
+  }
+}
