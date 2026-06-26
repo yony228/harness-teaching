@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260626-040",
+  "title": "软件工程师转机器学习工程师学习路线图",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/ZuzooVn/machine-learning-for-software-engineers",
+  "summary": "该项目为软件工程师提供了一份完整的日常学习计划，涵盖机器学习、深度学习及算法基础，旨在帮助开发者系统转型为机器学习工程师。内容结构清晰，适合有编程背景的初学者入门，但创新性一般，主要作为学习资源汇总。",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "machine-learning"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-06-26T10:47:25Z",
+  "updated_at": "2026-06-26T10:47:25Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 28799,
+    "original_name": "ZuzooVn/machine-learning-for-software-engineers",
+    "language": "",
+    "highlights": []
+  }
+}
