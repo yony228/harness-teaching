@@ -312,12 +312,24 @@ def _build_analysis_prompt(item: dict[str, Any]) -> str:
         f"星标: {item.get('stars', 0)}\n"
         f"语言: {item.get('language', '')}\n"
         f"标签: {item.get('topics', [])}\n\n"
+        f"【评分标准（1-10）】\n"
+        f"- 9-10: 突破性创新\n"
+        f"- 7-8: 优秀技术分享\n"
+        f"- 5-6: 普通有用信息\n"
+        f"- 3-4: 内容较浅\n"
+        f"- 1-2: 低质量\n\n"
+        f"【可用标签】\n"
+        f"agent, rag, mcp, llm, fine-tuning, prompt-engineering, multi-agent,\n"
+        f"tool-use, evaluation, deployment, security, reasoning, code-generation, vision, audio\n\n"
+        f"【audience】\n"
+        f"可选值: beginner, intermediate, advanced\n\n"
         f"请返回以下JSON格式：\n"
         f'{{\n'
         f'"title": "中文标题（10-30字）",\n'
         f'"summary": "简短描述技术亮点（50-200字）",\n'
-        f'"tags": ["标签1", "标签2", "标签3"],\n'
-        f'"score": 1-10的整数评分\n'
+        f'"tags": ["从可用标签中选择"],\n'
+        f'"score": 1-10的整数评分,\n'
+        f'"audience": "从可选值选择一个"\n'
         f'}}'
     )
 
@@ -361,6 +373,7 @@ def analyze_items(
                 "summary": item.get("summary", "无摘要"),
                 "tags": item.get("topics", [])[:5],
                 "score": min(10, max(1, item.get("stars", 0) // 1000)),
+                "audience": "intermediate",
             }
             for item in items
         ]
@@ -397,6 +410,7 @@ def analyze_items(
                             "score",
                             min(10, max(1, item.get("stars", 0) // 1000)),
                         ),
+                        "audience": parsed.get("audience", "intermediate"),
                     },
                 )
             else:
@@ -427,6 +441,7 @@ def analyze_items(
                     "summary": item.get("summary", "无摘要"),
                     "tags": item.get("topics", [])[:5],
                     "score": min(10, max(1, item.get("stars", 0) // 1000)),
+                    "audience": "intermediate",
                 },
             )
 
@@ -608,11 +623,12 @@ def standardize(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "title": item.get("title", item.get("name", "未命名")),
             "source_type": source_type,
             "source_url": url,
-            "summary": item.get("summary", ""),
-            "tags": item.get("tags", []),
-            "score": item.get("score", 0),
-            "status": "draft",
-            "created_at": now_str,
+             "summary": item.get("summary", ""),
+             "tags": item.get("tags", []),
+             "score": item.get("score", 0),
+             "status": "draft",
+             "audience": item.get("audience", "intermediate"),
+             "created_at": now_str,
             "updated_at": now_str,
             "publish_channels": [],
             "metadata": {
@@ -733,8 +749,14 @@ def save_articles(
                 )
                 article_file = ARTICLES_DIR / safe_filename
 
-            if "score" in item:
-                item["score"] = max(1, min(10, int(item.get("score", 0))))
+            score_val = item.get("score")
+            if isinstance(score_val, int) and (score_val < 1 or score_val > 10):
+                logger.warning(
+                    "文章 %s 的 score=%s 超出 [1,10] 范围，已跳过修正。"
+                    "请检查评分逻辑。",
+                    safe_filename,
+                    score_val,
+                )
             _save_article(article_file, item)
             logger.info("文章已保存: knowledge/articles/%s", safe_filename)
             saved_count += 1
