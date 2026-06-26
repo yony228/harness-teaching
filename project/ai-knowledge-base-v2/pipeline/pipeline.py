@@ -23,7 +23,6 @@ import logging
 import os
 import re
 import sys
-import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -346,13 +345,21 @@ def analyze_items(
         ``tags``, and ``score`` fields.
     """
     try:
-        from pipeline.model_client import create_provider, chat_with_retry  # noqa: F401
-    except (ImportError, ModuleNotFoundError):
+        # When run as `python pipeline/pipeline.py`, pipeline is not a package,
+        # so `from pipeline.model_client import ...` fails.
+        # Use importlib to resolve alongside the script file itself.
+        _mc_path = BASE_DIR / "pipeline" / "model_client.py"
+        spec = __import__("importlib.util").util.spec_from_file_location(
+            "model_client", _mc_path,
+        )
+        model_client = (
+            __import__("importlib.util").util.module_from_spec(spec)
+        )
+        spec.loader.exec_module(model_client)  # type: ignore[union-attr]
+    except (ImportError, ModuleNotFoundError, Exception) as exc:
         logger.warning(
-            "model_client 模块未找到或 API Key 未配置，跳过分析。\n"
-            "请确保 model_client.py 与 pipeline.py 在同一目录下，"
-            "并配置好 API Key。",
-            exc_info=True,
+            "model_client 模块加载失败或 API Key 未配置，使用基础分析跳过。\n"
+            "如需 AI 分析，请确保 model_client.py 已正确配置并设置 LLM_API_KEY。",
         )
         enriched: list[dict[str, Any]] = [
             {
@@ -360,7 +367,7 @@ def analyze_items(
                 "title": item.get("name", "未命名"),
                 "summary": item.get("summary", "无摘要"),
                 "tags": item.get("topics", [])[:5],
-                "score": 0,
+                "score": min(10, max(1, item.get("stars", 0) // 1000)),
             }
             for item in items
         ]
@@ -372,7 +379,7 @@ def analyze_items(
         prompt = _build_analysis_prompt(item)
 
         try:
-            result = chat_with_retry(prompt, verbose_logging=verbose)
+            result = model_client.chat_with_retry(prompt, verbose_logging=verbose)
 
             # Try to parse as JSON first
             if isinstance(result, str):
@@ -424,7 +431,7 @@ def analyze_items(
                     "title": item.get("name", "未命名"),
                     "summary": item.get("summary", "无摘要"),
                     "tags": item.get("topics", [])[:5],
-                    "score": 0,
+                    "score": min(10, max(1, item.get("stars", 0) // 1000)),
                 },
             )
 
@@ -481,28 +488,28 @@ def _parse_llm_json(text: str) -> dict[str, Any] | None:
 # ---------------------------------------------------------------------------
 
 
-def _compute_id(item: dict[str, Any], source_type: str) -> str:
-    """Generate a deterministic knowledge-entry ID from item content.
+def compute_numeric_id(date_str: str, source_type: str, index: int) -> str:
+    """Generate an ID with numeric suffix matching the validator pattern.
 
     Args:
-        item: The item dict to generate an ID for.
+        date_str: Date string in YYYYMMDD format.
         source_type: Source type string (e.g. ``github_trending``).
+        index: 1-based sequence number for this item.
 
     Returns:
         A formatted ID string like ``github-20260623-001``.
     """
-    date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
-    key = (
-        f"{item.get('url', '')}|{item.get('name', '')}|{date_str}"
-    )
-    hash_hex = hashlib.sha256(key.encode()).hexdigest()[:8]
-    return f"{source_type[:4].lower()}-{date_str}-{hash_hex}"
+    numeric_suffix = str(index).zfill(3)
+    return f"{source_type[:4].lower()}-{date_str}-{numeric_suffix}"
 
 
 def _generate_unique_id(
     items: list[dict[str, Any]], existing_ids: set[str],
 ) -> dict[str, str]:
     """Generate unique IDs for all items, avoiding conflicts.
+
+    Uses a sequence counter to produce IDs matching the format
+    ``{source}-YYYYMMDD-NNN`` (e.g. ``github-20260623-001``).
 
     Args:
         items: Items needing IDs.
@@ -512,6 +519,8 @@ def _generate_unique_id(
         Mapping of item URL -> generated unique ID.
     """
     id_map: dict[str, str] = {}
+    date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
+    seq: int = 1
 
     for item in items:
         url = item.get("url", "")
@@ -521,15 +530,13 @@ def _generate_unique_id(
             else "hacker_news"
         )
 
-        candidate_id = _compute_id(item, source_type)
-        if candidate_id not in existing_ids:
-            id_map[url] = candidate_id
-            existing_ids.add(candidate_id)
-        else:
-            id_map[url] = (
-                f"{source_type[:4].lower()}-{uuid.uuid4().hex[:8]}"
-            )
-            existing_ids.add(id_map[url])
+        candidate_id = compute_numeric_id(date_str, source_type, seq)
+        while candidate_id in existing_ids:
+            seq += 1
+            candidate_id = compute_numeric_id(date_str, source_type, seq)
+        id_map[url] = candidate_id
+        existing_ids.add(candidate_id)
+        seq += 1
 
     return id_map
 
@@ -599,7 +606,10 @@ def standardize(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     for item in items:
         url = item.get("url", "")
         entry = {
-            "id": _id_map.get(url, _compute_id(item, source_type)),
+            "id": _id_map.get(url, compute_numeric_id(
+                datetime.now(timezone.utc).strftime("%Y%m%d"),
+                source_type, 1,
+            )),
             "title": item.get("title", item.get("name", "未命名")),
             "source_type": source_type,
             "source_url": url,
