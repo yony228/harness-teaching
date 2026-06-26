@@ -64,7 +64,7 @@ jobs:
             exit 0
           fi
 
-          git add project/ai-knowledge-base-v2/knowledge/
+          git add knowledge/
           git -c user.name="github-actions" \
               -c user.email="github-actions@github.com" \
               commit -m "feat: add $NEW_COUNT article(s) - $TODAY"
