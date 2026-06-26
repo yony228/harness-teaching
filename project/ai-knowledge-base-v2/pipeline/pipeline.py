@@ -733,6 +733,8 @@ def save_articles(
                 )
                 article_file = ARTICLES_DIR / safe_filename
 
+            if "score" in item:
+                item["score"] = max(1, min(10, int(item.get("score", 0))))
             _save_article(article_file, item)
             logger.info("文章已保存: knowledge/articles/%s", safe_filename)
             saved_count += 1

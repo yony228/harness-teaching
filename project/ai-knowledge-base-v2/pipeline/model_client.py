@@ -442,7 +442,7 @@ def create_provider(provider_name: str | None = None) -> OpenAICompatibleProvide
     """
     effective = (
         provider_name
-        or os.environ.get("LLM_PROVIDER", "deepseek")
+        or os.environ.get("LLM_PROVIDER") or "deepseek"
     ).lower().strip()
 
     return OpenAICompatibleProvider(effective)
