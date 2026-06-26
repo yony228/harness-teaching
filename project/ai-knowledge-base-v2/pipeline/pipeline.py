@@ -400,7 +400,11 @@ def analyze_items(
             if isinstance(result, str):
                 parsed = _parse_llm_json(result)
             else:
-                parsed = result
+                # Extract .content from LLMResponse or similar objects
+                if hasattr(result, "content"):
+                    parsed = _parse_llm_json(result.content)
+                else:
+                    parsed = result
 
             logger.debug(
                 "LLM返回: 类型=%s, isinstance(dict): %s, 内容=%s",
@@ -434,7 +438,7 @@ def analyze_items(
                         "title": item.get("name", "未命名"),
                         "summary": item.get("summary", "无摘要"),
                         "tags": item.get("topics", [])[:5],
-                        "score": 0,
+                        "score": 1,
                     },
                 )
 
