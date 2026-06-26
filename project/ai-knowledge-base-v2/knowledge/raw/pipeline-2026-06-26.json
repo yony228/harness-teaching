@@ -1,6 +1,6 @@
 {
   "source": "pipeline",
-  "collected_at": "2026-06-26T03:01:04Z",
+  "collected_at": "2026-06-26T03:10:25Z",
   "items": [
     {
       "name": "Significant-Gravitas/AutoGPT",
@@ -34,7 +34,7 @@
       "name": "rasbt/LLMs-from-scratch",
       "url": "https://github.com/rasbt/LLMs-from-scratch",
       "summary": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-      "stars": 97751,
+      "stars": 97752,
       "language": "Jupyter Notebook",
       "topics": [
         "ai",
@@ -48,7 +48,7 @@
       "name": "hacksider/Deep-Live-Cam",
       "url": "https://github.com/hacksider/Deep-Live-Cam",
       "summary": "real time face swap and one-click video deepfake with only a single image",
-      "stars": 94174,
+      "stars": 94176,
       "language": "Python",
       "topics": [
         "ai",
@@ -62,7 +62,7 @@
       "name": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "summary": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "stars": 84309,
+      "stars": 84310,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -76,7 +76,7 @@
       "name": "OpenHands/OpenHands",
       "url": "https://github.com/OpenHands/OpenHands",
       "summary": "🙌 OpenHands: AI-Driven Development",
-      "stars": 78357,
+      "stars": 78358,
       "language": "Python",
       "topics": [
         "agent",
@@ -104,7 +104,7 @@
       "name": "jingyaogong/minimind",
       "url": "https://github.com/jingyaogong/minimind",
       "summary": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
-      "stars": 52202,
+      "stars": 52203,
       "language": "Python",
       "topics": [
         "artificial-intelligence",
