@@ -1,0 +1,26 @@
+{
+  "id": "gith-20260628-006",
+  "title": "OpenHands：开源AI驱动软件开发助手",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/OpenHands/OpenHands",
+  "summary": "OpenHands（原OpenDevin）是一个开源的AI驱动开发平台，利用大语言模型（LLM）自动生成代码、执行命令、管理文件并与用户协作。该项目支持GPT、Claude等主流模型，提供CLI与交互界面，显著提升开发效率。凭借70K+星标及活跃社区，已成为AI辅助编程领域的标杆项目。",
+  "tags": [
+    "agent",
+    "llm",
+    "code-generation",
+    "tool-use",
+    "multi-agent"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-06-28T10:24:16Z",
+  "updated_at": "2026-06-28T10:24:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 78541,
+    "original_name": "OpenHands/OpenHands",
+    "language": "Python",
+    "highlights": []
+  }
+}
