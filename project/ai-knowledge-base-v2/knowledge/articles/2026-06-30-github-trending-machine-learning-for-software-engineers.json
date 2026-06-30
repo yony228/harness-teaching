@@ -1,0 +1,22 @@
+{
+  "id": "gith-20260630-020",
+  "title": "机器学习工程师自学完整路线图",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/ZuzooVn/machine-learning-for-software-engineers",
+  "summary": "该项目为软件工程师提供了一份从零到机器学习工程师的完整每日学习计划，涵盖了机器学习基础、深度学习、算法实现等核心内容。项目以系统化的课程安排和实践项目为亮点，适合有一定编程基础的人系统学习ML知识，是一份优秀的技术学习资源分享。",
+  "tags": [
+    "machine-learning"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-06-30T10:52:55Z",
+  "updated_at": "2026-06-30T10:52:55Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 28802,
+    "original_name": "ZuzooVn/machine-learning-for-software-engineers",
+    "language": "",
+    "highlights": []
+  }
+}
