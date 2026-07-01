@@ -1,0 +1,22 @@
+{
+  "id": "gith-20260701-020",
+  "title": "软件工程师机器学习学习计划",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/ZuzooVn/machine-learning-for-software-engineers",
+  "summary": "该项目为软件工程师提供了一份完整的每日学习计划，旨在帮助其逐步成为机器学习工程师。内容涵盖人工智能、深度学习、机器学习算法等核心主题，通过系统化课程和资源组织，降低了从软件工程转型到机器学习领域的学习门槛。",
+  "tags": [
+    "llm"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-01T11:19:47Z",
+  "updated_at": "2026-07-01T11:19:47Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 28801,
+    "original_name": "ZuzooVn/machine-learning-for-software-engineers",
+    "language": "",
+    "highlights": []
+  }
+}

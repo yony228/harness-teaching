@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260701-018",
+  "title": "AI自动求职助手：利用AI批量定制化申请工作",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+  "summary": "该项目通过AI与Selenium自动化技术，实现批量、定制化的职位申请流程。用户可配置简历和求职信，系统自动抓取岗位信息、生成个性化申请材料并提交。技术上结合GPT等模型进行对话生成和智能匹配，大幅提升求职效率。适用于高频申请场景，减少重复劳动，但需注意平台合规性和风险。",
+  "tags": [
+    "agent",
+    "llm",
+    "automation"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-01T11:19:47Z",
+  "updated_at": "2026-07-01T11:19:47Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 29962,
+    "original_name": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+    "language": "Python",
+    "highlights": []
+  }
+}
