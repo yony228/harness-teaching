@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260702-015",
+  "title": "Facebook AI 开源序列到序列学习工具包",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/facebookresearch/fairseq",
+  "summary": "fairseq 是 Facebook AI Research 开发的序列到序列学习工具包，基于 PyTorch 实现，支持翻译、摘要、语音识别等多种任务。它提供高效的分布式训练、多种预训练模型（如 BART、ConvSeq2Seq）以及灵活的自定义架构，是 NLP 和语音领域研究人员的重要工具。",
+  "tags": [
+    "llm",
+    "fine-tuning"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-07-02T10:32:59Z",
+  "updated_at": "2026-07-02T10:32:59Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 32230,
+    "original_name": "facebookresearch/fairseq",
+    "language": "Python",
+    "highlights": []
+  }
+}
