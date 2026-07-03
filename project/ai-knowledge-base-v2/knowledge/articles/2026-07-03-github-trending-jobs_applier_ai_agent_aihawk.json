@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260703-019",
+  "title": "AI驱动自动化求职申请代理工具",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+  "summary": "AIHawk利用人工智能和Selenium自动化技术，帮助用户批量投递多个职位，并针对每个岗位自动定制化简历和申请内容，显著提升求职效率。该项目支持多平台求职流程自动化，适合希望节省时间并提高申请成功率的求职者。",
+  "tags": [
+    "agent",
+    "tool-use"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-03T10:30:43Z",
+  "updated_at": "2026-07-03T10:30:43Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 29967,
+    "original_name": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+    "language": "Python",
+    "highlights": []
+  }
+}
