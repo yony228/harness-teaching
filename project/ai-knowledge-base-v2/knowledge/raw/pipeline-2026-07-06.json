@@ -1,0 +1,247 @@
+{
+  "source": "pipeline",
+  "collected_at": "2026-07-06T11:59:38Z",
+  "items": [
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "summary": "AutoGPT是一个开源项目，旨在提供可访问的AI代理工具，让每个人都能使用和构建自主AI代理。它支持多种LLM（如GPT、Claude、Llama），具备任务分解、工具调用和自主决策能力，是实现通用AI代理的重要里程碑。",
+      "stars": 185402,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "multi-agent",
+        "llm"
+      ]
+    },
+    {
+      "name": "f/prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "summary": "该项目是一个开源、社区驱动的ChatGPT提示词（prompts）集合平台，支持用户分享、发现和收藏各种AI聊天提示词。基于Next.js和TypeScript构建，支持自托管部署以保障隐私安全，涵盖了从ChatGPT到Claude、Gemini等主流LLM的提示词资源，是提示工程领域的优质开源工具。",
+      "stars": 164856,
+      "language": "HTML",
+      "topics": [
+        "prompt-engineering",
+        "llm",
+        "code-generation"
+      ]
+    },
+    {
+      "name": "rasbt/LLMs-from-scratch",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "summary": "这是一个从零开始实现类ChatGPT大语言模型的开源教程，基于PyTorch框架，逐步涵盖预训练、微调、指令调优等完整流程。项目以Jupyter Notebook形式提供，包含详细的代码和解释，适合深度学习实践者深入理解LLM的内部机制。",
+      "stars": 98627,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "llm",
+        "fine-tuning",
+        "code-generation"
+      ]
+    },
+    {
+      "name": "hacksider/Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "summary": "基于Python开发的实时人脸替换工具，仅需一张图片即可实现视频深度伪造，支持实时摄像头换脸，集成GAN技术，操作简单一键完成。项目拥有94k+星标，社区活跃，技术成熟度较高，适合对深度伪造和实时人脸处理感兴趣的中高级开发者。",
+      "stars": 94635,
+      "language": "Python",
+      "topics": [
+        "vision",
+        "audio",
+        "deployment",
+        "security"
+      ]
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "summary": "该工具为AI代理提供跨会话的持久上下文记忆，自动捕获会话中的所有操作，利用AI压缩并注入相关上下文到未来会话中。支持Claude Code、OpenClaw、Codex、Gemini等多种代理平台，通过嵌入、ChromaDB、SQLite等技术实现长期记忆，显著提升代理的连续性和智能化水平。",
+      "stars": 86103,
+      "language": "JavaScript",
+      "topics": [
+        "agent",
+        "rag",
+        "llm",
+        "memory-engine"
+      ]
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "summary": "OpenHands是一个基于Python的开源项目，旨在通过AI技术（如GPT、Claude等大语言模型）驱动软件开发流程。它提供命令行界面和智能代理功能，支持代码生成、工具使用等多任务场景，是为开发者打造的AI协作工具，星标近8万，社区活跃，技术创新性强。",
+      "stars": 79598,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "llm",
+        "code-generation",
+        "tool-use",
+        "developer-tools"
+      ]
+    },
+    {
+      "name": "FlowiseAI/Flowise",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "summary": "Flowise是一个基于TypeScript开发的开源低代码/无代码平台，支持通过拖拽式可视化界面快速构建AI智能体、聊天机器人和RAG应用。它集成了LangChain、OpenAI、多智能体系统和多种LLM，适用于从原型设计到生产部署的全流程，极大降低了AI应用开发门槛。",
+      "stars": 54322,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "rag",
+        "llm",
+        "multi-agent",
+        "low-code"
+      ]
+    },
+    {
+      "name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "summary": "该项目展示了如何仅用2小时从零开始训练一个64M参数的小型LLM，适合快速入门大模型训练流程，代码开源且易于复现。",
+      "stars": 52627,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "fine-tuning"
+      ]
+    },
+    {
+      "name": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "summary": "该仓库是微软推出的面向初学者的AI课程，包含12周24节课，涵盖机器学习、计算机视觉、自然语言处理、深度学习、CNN、RNN及GAN等核心技术。内容系统且实践性强，适合零基础入门AI技术栈，配套Jupyter Notebook教程便于动手实践。",
+      "stars": 51762,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "vision",
+        "llm",
+        "deep-learning"
+      ]
+    },
+    {
+      "name": "Kong/kong",
+      "url": "https://github.com/Kong/kong",
+      "summary": "Kong是一个云原生、高性能的API网关和AI网关，支持Kubernetes Ingress、微服务管理、安全认证及AI代理功能。其插件生态丰富，可扩展性强，适合构建现代化API管理和AI服务网关，支持LLM网关、MCP网关等场景。",
+      "stars": 43742,
+      "language": "Lua",
+      "topics": [
+        "llm",
+        "deployment",
+        "security"
+      ]
+    },
+    {
+      "name": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "summary": "Strix是一款开源的AI驱动渗透测试工具，旨在自动化发现并修复应用中的安全漏洞。该项目基于Python实现，结合AI代理与安全测试技术，适用于漏洞赏金、网络安全攻防演练和代码质量提升。其核心亮点在于利用LLM增强渗透测试的智能化与自动化效率，属于AI安全领域的前沿实践。",
+      "stars": 37673,
+      "language": "Python",
+      "topics": [
+        "security",
+        "agent",
+        "ai-hacking"
+      ]
+    },
+    {
+      "name": "XingangPan/DragGAN",
+      "url": "https://github.com/XingangPan/DragGAN",
+      "summary": "DragGAN是SIGGRAPH 2023的官方代码，通过拖动图像中的关键点实现直观的图像编辑。无需复杂标注，用户可直接操控生成对抗网络（GAN）的潜在空间，实现高精度、实时的图像变形与内容编辑，在几何变换和图像合成方面表现出突破性创新。",
+      "stars": 35811,
+      "language": "Python",
+      "topics": [
+        "vision"
+      ]
+    },
+    {
+      "name": "ItzCrazyKns/Vane",
+      "url": "https://github.com/ItzCrazyKns/Vane",
+      "summary": "Vane是一款基于TypeScript构建的AI问答引擎，集成了LLM、RAG和AI搜索能力，支持自托管和SearchXNG协作。项目获得35k+星标，提供类似Perplexica的交互体验，适合构建个性化AI搜索应用。",
+      "stars": 35572,
+      "language": "TypeScript",
+      "topics": [
+        "rag",
+        "llm",
+        "ai-search-engine"
+      ]
+    },
+    {
+      "name": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "summary": "这是一个汇集了500个人工智能、机器学习、深度学习、计算机视觉和自然语言处理项目的开源库，每个项目都附带有代码实现。资源涵盖广泛，适合学习与实践，星标数量超过3.5万，属于高质量的技术分享。",
+      "stars": 35196,
+      "language": "",
+      "topics": [
+        "machine-learning",
+        "deep-learning",
+        "vision",
+        "nlp",
+        "code-generation"
+      ]
+    },
+    {
+      "name": "explosion/spaCy",
+      "url": "https://github.com/explosion/spaCy",
+      "summary": "spaCy是一个高性能的工业级自然语言处理（NLP）库，支持Python和Cython混合编程，覆盖分词、词性标注、命名实体识别、依存句法分析、文本分类、实体链接等功能，并集成深度学习与神经网络模型。项目在GitHub获33719星，广泛用于AI、数据科学和机器学习场景，是NLP领域的标杆工具之一。",
+      "stars": 33719,
+      "language": "Python",
+      "topics": [
+        "llm"
+      ]
+    },
+    {
+      "name": "facebookresearch/fairseq",
+      "url": "https://github.com/facebookresearch/fairseq",
+      "summary": "fairseq是Facebook AI Research开发的序列到序列学习工具包，基于Python和PyTorch，用于训练自定义模型及翻译、摘要、文本生成等任务。该项目在GitHub获得超过3.2万星标，具备高性能、模块化设计，支持大规模分布式训练，是自然语言处理领域的重要开源技术分享。",
+      "stars": 32234,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "fine-tuning"
+      ]
+    },
+    {
+      "name": "Lightning-AI/pytorch-lightning",
+      "url": "https://github.com/Lightning-AI/pytorch-lightning",
+      "summary": "PyTorch Lightning 是一个轻量级PyTorch框架，允许用户在不修改模型代码的情况下，在1到10,000+GPU上预训练和微调任意规模的AI模型。它简化了训练循环、分布式训练、混合精度等复杂工程，广泛应用于深度学习研究与工业部署。",
+      "stars": 31221,
+      "language": "Python",
+      "topics": [
+        "fine-tuning",
+        "deployment"
+      ]
+    },
+    {
+      "name": "AMAI-GmbH/AI-Expert-Roadmap",
+      "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
+      "summary": "该项目提供了一份系统性的AI学习路线图，涵盖从基础数学、编程到机器学习、深度学习、自然语言处理等领域的知识体系，适合希望系统化学习AI技术的用户。",
+      "stars": 31113,
+      "language": "JavaScript",
+      "topics": [
+        "llm"
+      ]
+    },
+    {
+      "name": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "summary": "AIHawk 是一个利用人工智能自动化的求职申请工具，支持个性化投递简历。基于Python和Selenium，结合GPT等模型，自动填写职位申请表单，提高求职效率。项目已有近3万星标，展示AI在人力资源流程中的应用潜力。",
+      "stars": 29976,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "automation",
+        "vision"
+      ]
+    },
+    {
+      "name": "simstudioai/sim",
+      "url": "https://github.com/simstudioai/sim",
+      "summary": "Sim是一个开源的低代码/无代码AI智能体工作流平台，支持构建、部署和编排AI智能体。它集成了多种主流AI模型（如Anthropic、DeepSeek、Gemini、OpenAI等），提供RAG、聊天机器人等功能，基于TypeScript和React开发，适合快速搭建AI工作人员队伍。该项目获得近3万星标，社区活跃，技术实现优秀。",
+      "stars": 28960,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "multi-agent",
+        "llm",
+        "rag",
+        "deployment"
+      ]
+    }
+  ]
+}
