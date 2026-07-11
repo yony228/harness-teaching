@@ -1,0 +1,27 @@
+{
+  "id": "gith-20260711-020",
+  "title": "Sim：低代码AI代理构建与编排平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/simstudioai/sim",
+  "summary": "Sim是一个基于TypeScript的开源平台，支持构建、部署和编排AI代理，作为AI工作力的中央智能层。它集成了多种AI模型（如OpenAI、Anthropic、DeepSeek、Gemini），提供低代码/无代码界面，并支持RAG、代理工作流和复杂自动化任务。该项目在GitHub上获得29k+星标，采用Next.js和React构建，适合快速搭建智能客服、自动化流程等应用。",
+  "tags": [
+    "agent",
+    "multi-agent",
+    "low-code",
+    "deployment",
+    "llm",
+    "rag"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-11T09:22:42Z",
+  "updated_at": "2026-07-11T09:22:42Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 29036,
+    "original_name": "simstudioai/sim",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
