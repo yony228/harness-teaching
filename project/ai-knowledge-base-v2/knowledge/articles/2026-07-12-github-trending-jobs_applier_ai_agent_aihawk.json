@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260712-019",
+  "title": "AIHawk：基于AI的自动化求职申请助手",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+  "summary": "AIHawk利用OpenAI的GPT模型和Selenium自动化技术，实现个性化的多职位批量申请。它智能解析岗位描述并定制化投递简历，极大提升求职效率。项目通过模拟浏览器操作，覆盖主流招聘平台，适合需要高效寻找工作机会的用户。",
+  "tags": [
+    "agent",
+    "automation"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-12T09:47:14Z",
+  "updated_at": "2026-07-12T09:47:14Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 29999,
+    "original_name": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+    "language": "Python",
+    "highlights": []
+  }
+}
