@@ -1,0 +1,22 @@
+{
+  "id": "gith-20260713-009",
+  "title": "微软AI初学者12周课程：24课时覆盖AI核心领域",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/microsoft/AI-For-Beginners",
+  "summary": "该仓库是微软推出的AI入门教程，为期12周共24课时，涵盖机器学习、深度学习、计算机视觉（CNN）、自然语言处理（NLP）、生成对抗网络（GAN）等核心主题，使用Jupyter Notebook提供交互式学习体验。内容专为初学者设计，结构清晰，注重理论与实践结合，是学习AI基础知识的优质资源。",
+  "tags": [
+    "llm"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-07-13T10:55:12Z",
+  "updated_at": "2026-07-13T10:55:12Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 52213,
+    "original_name": "microsoft/AI-For-Beginners",
+    "language": "Jupyter Notebook",
+    "highlights": []
+  }
+}
