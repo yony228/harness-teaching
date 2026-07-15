@@ -1,0 +1,22 @@
+{
+  "id": "gith-20260715-018",
+  "title": "2022年人工智能专家成长路线图",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
+  "summary": "该项目提供了一份从入门到精通的AI学习路线图，涵盖机器学习、深度学习、神经网络、数据分析等核心领域，配有清晰的路径规划和资源推荐。适合希望系统学习AI技术的学习者制定自学计划。",
+  "tags": [
+    "llm"
+  ],
+  "score": 6,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-07-15T09:56:42Z",
+  "updated_at": "2026-07-15T09:56:42Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 31137,
+    "original_name": "AMAI-GmbH/AI-Expert-Roadmap",
+    "language": "JavaScript",
+    "highlights": []
+  }
+}
