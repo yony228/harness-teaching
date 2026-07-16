@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260716-002",
+  "title": "社区驱动的ChatGPT提示词共享与发现平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/f/prompts.chat",
+  "summary": "这是一个开源的ChatGPT提示词（prompts）集合与分享平台，支持用户发现、收集和贡献提示词。项目基于Next.js和TypeScript构建，提供自托管部署选项以保障隐私。作为社区驱动的“awesome-list”，它整合了来自用户的多样化提示词，适用于ChatGPT、Claude、Gemini等大语言模型，是提示工程（prompt engineering）爱好者的实用资源库。",
+  "tags": [
+    "prompt-engineering",
+    "llm"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-16T10:04:01Z",
+  "updated_at": "2026-07-16T10:04:01Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 165846,
+    "original_name": "f/prompts.chat",
+    "language": "HTML",
+    "highlights": []
+  }
+}
