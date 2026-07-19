@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260719-019",
+  "title": "AI自动化求职助手：智能批量投递简历",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+  "summary": "基于Python和Selenium开发的AI驱动求职自动化工具，利用ChatGPT等大语言模型为每个职位定制简历和求职信，自动完成多平台批量申请。通过模拟人工操作、简历解析和智能匹配，大幅提升求职效率，降低重复性劳动，适用于海投策略。需用户提供OpenAI API密钥并遵守平台使用政策。",
+  "tags": [
+    "agent",
+    "tool-use"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-19T09:47:58Z",
+  "updated_at": "2026-07-19T09:47:58Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 30032,
+    "original_name": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+    "language": "Python",
+    "highlights": []
+  }
+}

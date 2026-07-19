@@ -1,0 +1,27 @@
+{
+  "id": "gith-20260719-007",
+  "title": "FlowiseAI：低代码可视化构建AI智能体与工作流",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/FlowiseAI/Flowise",
+  "summary": "Flowise是一个基于TypeScript构建的开源低代码/无代码平台，通过拖拽式界面可视化编排LLM应用，支持RAG、多智能体系统、工作流自动化等，集成LangChain与多种大模型，极大降低了AI应用开发门槛。目前获得5.4万+星标，技术先进且社区活跃。",
+  "tags": [
+    "agent",
+    "rag",
+    "llm",
+    "multi-agent",
+    "tool-use",
+    "deployment"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-19T09:47:58Z",
+  "updated_at": "2026-07-19T09:47:58Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 54733,
+    "original_name": "FlowiseAI/Flowise",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
