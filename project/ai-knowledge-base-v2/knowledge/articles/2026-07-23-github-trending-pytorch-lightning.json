@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260723-017",
+  "title": "PyTorch Lightning：零代码改动的AI模型大规模训练框架",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Lightning-AI/pytorch-lightning",
+  "summary": "PyTorch Lightning 是一个轻量级深度学习框架，支持在单GPU到万卡集群上零代码改动地预训练和微调任意规模的AI模型。它通过模块化设计简化了训练循环、分布式策略和混合精度管理，让研究人员和工程师聚焦于模型设计而非工程细节，是当前主流的PyTorch高阶封装之一。",
+  "tags": [
+    "deployment",
+    "fine-tuning"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-23T10:15:08Z",
+  "updated_at": "2026-07-23T10:15:08Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 31245,
+    "original_name": "Lightning-AI/pytorch-lightning",
+    "language": "Python",
+    "highlights": []
+  }
+}

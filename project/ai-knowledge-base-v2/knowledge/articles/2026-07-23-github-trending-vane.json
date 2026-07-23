@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260723-012",
+  "title": "Vane：AI驱动开源问答引擎与搜索引擎解决方案",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/ItzCrazyKns/Vane",
+  "summary": "Vane 是一款基于人工智能的开源问答引擎，集成了 RAG 与 SearXNG 等技术，支持自托管部署，提供高效、可定制的智能搜索与问答服务。该项目在 GitHub 上获得超 3.5 万星标，技术成熟，社区活跃，适合构建私有化 AI 搜索助手。",
+  "tags": [
+    "rag",
+    "llm",
+    "deployment"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-23T10:15:08Z",
+  "updated_at": "2026-07-23T10:15:08Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 35842,
+    "original_name": "ItzCrazyKns/Vane",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}

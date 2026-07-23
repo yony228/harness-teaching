@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260723-002",
+  "title": "社区驱动的ChatGPT提示词开源集合",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/f/prompts.chat",
+  "summary": "一个收集、分享和发现ChatGPT等LLM提示词的开源项目，支持自托管部署，为AI交互提供丰富的提示词模板，助力提示工程实践。",
+  "tags": [
+    "prompt-engineering",
+    "llm"
+  ],
+  "score": 6,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-07-23T10:15:08Z",
+  "updated_at": "2026-07-23T10:15:08Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 166237,
+    "original_name": "f/prompts.chat",
+    "language": "HTML",
+    "highlights": []
+  }
+}
