@@ -1,0 +1,26 @@
+{
+  "id": "gith-20260725-010",
+  "title": "usestrix/strix",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/usestrix/strix",
+  "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+  "tags": [
+    "agents",
+    "ai-hacking",
+    "ai-penetration-testing",
+    "ai-pentesting",
+    "ai-security"
+  ],
+  "score": 10,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-25T09:44:12Z",
+  "updated_at": "2026-07-25T09:44:12Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 44082,
+    "original_name": "usestrix/strix",
+    "language": "Python",
+    "highlights": []
+  }
+}
