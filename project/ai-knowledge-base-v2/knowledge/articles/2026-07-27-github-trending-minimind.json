@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260727-008",
+  "title": "2小时从零训练64M参数大模型",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/jingyaogong/minimind",
+  "summary": "该项目展示了如何从零开始训练一个仅64M参数的小型LLM，全程仅需2小时，适合快速入门大模型训练。代码开源且易于复现，包含数据预处理、模型构建和训练流程，是学习大模型基础的高效实践。",
+  "tags": [
+    "llm",
+    "fine-tuning"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-27T11:14:37Z",
+  "updated_at": "2026-07-27T11:14:37Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 53893,
+    "original_name": "jingyaogong/minimind",
+    "language": "Python",
+    "highlights": []
+  }
+}
