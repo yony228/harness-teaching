@@ -1,0 +1,26 @@
+{
+  "id": "gith-20260731-003",
+  "title": "从零实现ChatGPT：PyTorch逐步构建LLM",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/rasbt/LLMs-from-scratch",
+  "summary": "该仓库提供了一套完整的从零开始实现类似ChatGPT的大语言模型（LLM）的教程，基于PyTorch，逐步讲解从数据预处理、模型架构、预训练到指令微调的全过程。内容涵盖注意力机制、tokenizer、transformer等核心组件，并包含大量代码示例和详细注释，适合深度学习与NLP领域的开发者深入学习。作为优秀的技术分享，教程结构清晰，实操性强，但并非突破性创新，而是对现有技术的系统化教学。",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "deep-learning",
+    "pytorch",
+    "transformers"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-07-31T10:32:27Z",
+  "updated_at": "2026-07-31T10:32:27Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 100204,
+    "original_name": "rasbt/LLMs-from-scratch",
+    "language": "Jupyter Notebook",
+    "highlights": []
+  }
+}
