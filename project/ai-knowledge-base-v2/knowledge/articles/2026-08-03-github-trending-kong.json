@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260803-011",
+  "title": "Kong API与AI网关：云原生智能流量管理",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Kong/kong",
+  "summary": "Kong是一款高性能的API网关和AI网关，支持Kubernetes Ingress、微服务及LLM流量管理。它提供反向代理、负载均衡、认证安全等功能，并针对AI场景优化了OpenAI代理、MCP网关等能力，是云原生环境下连接API和AI服务的核心基础设施。",
+  "tags": [
+    "deployment",
+    "security",
+    "llm"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-03T11:17:04Z",
+  "updated_at": "2026-08-03T11:17:04Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 43907,
+    "original_name": "Kong/kong",
+    "language": "Lua",
+    "highlights": []
+  }
+}
