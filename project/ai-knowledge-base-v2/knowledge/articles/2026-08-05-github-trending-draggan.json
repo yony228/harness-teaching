@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260805-014",
+  "title": "DragGAN：基于生成对抗网络的交互式图像编辑框架",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/XingangPan/DragGAN",
+  "summary": "DragGAN是SIGGRAPH 2023的官方实现，提出了一种创新的交互式图像编辑方法。用户可通过拖拽图像中的关键点（如调整人物姿势、物体形状）实现精确控制，而无需手动编辑像素。其核心在于利用生成对抗网络的潜在空间特征进行可微渲染，结合特征运动监督和点追踪技术，实现实时、高质量的形变效果。该项目提供了完整的训练和推理代码，支持多种预训练模型，极大地降低了图像编辑门槛。该技术突破了传统GAN编辑的局限性，为视觉生成和交互式设计带来了全新可能。",
+  "tags": [
+    "vision",
+    "generative-adversarial-network"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-05T10:29:22Z",
+  "updated_at": "2026-08-05T10:29:22Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 35783,
+    "original_name": "XingangPan/DragGAN",
+    "language": "Python",
+    "highlights": []
+  }
+}
