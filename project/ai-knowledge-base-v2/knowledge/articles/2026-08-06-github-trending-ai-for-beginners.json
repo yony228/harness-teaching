@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260806-007",
+  "title": "微软AI初学者教程：12周24课全栈入门",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/microsoft/AI-For-Beginners",
+  "summary": "微软开源的AI入门课程，涵盖机器学习、神经网络、计算机视觉、NLP、生成模型等核心主题，配有实践练习和代码示例，适合零基础学习者系统掌握AI基础知识。",
+  "tags": [
+    "llm",
+    "vision",
+    "prompt-engineering"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-08-06T10:33:42Z",
+  "updated_at": "2026-08-06T10:33:42Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 62354,
+    "original_name": "microsoft/AI-For-Beginners",
+    "language": "Jupyter Notebook",
+    "highlights": []
+  }
+}
