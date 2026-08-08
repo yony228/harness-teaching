@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260808-016",
+  "title": "FAIR序列到序列学习开源工具包",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/facebookresearch/fairseq",
+  "summary": "fairseq是Facebook AI Research开发的序列到序列学习工具包，基于PyTorch实现，支持翻译、摘要、文本生成等任务。该项目提供高性能分布式训练、多种预训练模型和先进架构，如Transformer和LightConv，并易于扩展自定义模型。作为AI领域的重要开源项目，它推动了NLP研究与应用发展。",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "deployment"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-08T08:33:45Z",
+  "updated_at": "2026-08-08T08:33:45Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 32244,
+    "original_name": "facebookresearch/fairseq",
+    "language": "Python",
+    "highlights": []
+  }
+}

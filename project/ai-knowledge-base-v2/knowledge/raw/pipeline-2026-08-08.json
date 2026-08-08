@@ -1,0 +1,249 @@
+{
+  "source": "pipeline",
+  "collected_at": "2026-08-08T08:33:45Z",
+  "items": [
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "summary": "AutoGPT是一个开源项目，旨在让每个人都能轻松构建和使用自主AI代理。它提供了先进的工具和框架，支持多种LLM（如GPT、Claude、Llama），具备多代理协作、任务规划、工具调用等功能，推动了AI代理技术的普及和创新。",
+      "stars": 186397,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "multi-agent",
+        "llm",
+        "tool-use"
+      ]
+    },
+    {
+      "name": "f/prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "summary": "该项目是一个收集、分享和发现ChatGPT等AI模型提示词的开源平台，拥有超过16万星标，包含大量社区贡献的高质量提示词，支持自托管，注重隐私。其价值在于为提示词工程提供实践参考，帮助用户更有效地与LLM交互，属于优秀的开源资源共享项目。",
+      "stars": 166875,
+      "language": "HTML",
+      "topics": [
+        "prompt-engineering"
+      ]
+    },
+    {
+      "name": "rasbt/LLMs-from-scratch",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "summary": "该仓库提供了一套完整的从零开始构建类ChatGPT大语言模型的教程，覆盖了从数据预处理、模型架构设计、预训练到微调的全流程。每个步骤都有详细的代码示例和解释，特别强调了注意力机制、分词器等核心组件的实现。项目以Jupyter Notebook形式呈现，便于学习和实践。作为广受好评的教育资源，它帮助开发者深入理解LLM的工作原理，而非仅仅依赖现成框架。",
+      "stars": 101080,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "llm",
+        "fine-tuning",
+        "reasoning",
+        "code-generation"
+      ]
+    },
+    {
+      "name": "hacksider/Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "summary": "Deep-Live-Cam 是一个基于 Python 的实时换脸和视频深度伪造项目，仅需一张目标人脸图像即可实现实时人脸替换和视频处理。项目利用 GAN 等 AI 技术，支持网络摄像头实时换脸、视频文件一键处理，并兼容多种硬件（如 CPU/GPU）。界面简单，操作便捷，在 GitHub 上获得 95k+ 星标，展示了强大的实用性和社区关注度。该工具引发对深度伪造伦理和安全的讨论，但作为技术演示，其代码架构和实时处理流程对计算机视觉开发者具有参考价值。",
+      "stars": 95811,
+      "language": "Python",
+      "topics": [
+        "vision",
+        "security"
+      ]
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "summary": "该工具为所有AI Agent提供跨会话的持久记忆与上下文注入。它自动捕获会话全过程数据，通过AI压缩生成长期记忆，并在未来会话中智能检索相关背景，显著提升对话连续性与个性化响应。支持多Agent平台（如Claude Code、Copilot等），内置SQLite+ChromaDB存储及RAG检索，基于嵌入实现语义召回，是当前最热门的AI记忆基础设施。",
+      "stars": 90025,
+      "language": "JavaScript",
+      "topics": [
+        "rag",
+        "llm",
+        "agent"
+      ]
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "summary": "OpenHands是一个开源的AI驱动开发平台，旨在通过AI代理自动化和辅助软件开发流程。它支持多种大语言模型（如GPT、Claude、OpenAI模型），提供命令行界面和开发者工具，能够执行代码生成、自动化任务和交互式编程。该项目在GitHub上拥有超过8万星标，技术成熟，社区活跃，适用于从代码补全到复杂项目管理的多种开发场景。",
+      "stars": 83435,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "llm",
+        "code-generation",
+        "tool-use"
+      ]
+    },
+    {
+      "name": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "summary": "该仓库是微软推出的面向初学者的AI课程，涵盖机器学习、神经网络、计算机视觉、自然语言处理、生成模型等核心主题。课程包括理论讲解和实战代码，使用Jupyter Notebook，适合自学或教学。内容体系完整，从基础到进阶，是优秀的AI学习资源，但创新性一般。",
+      "stars": 63332,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "llm",
+        "vision",
+        "nlp",
+        "deep-learning",
+        "cnn",
+        "rnn"
+      ]
+    },
+    {
+      "name": "FlowiseAI/Flowise",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "summary": "Flowise是一个基于TypeScript的开源低代码/无代码平台，允许用户通过拖拽方式可视化构建AI代理、聊天机器人和RAG应用。它集成LangChain，支持多种LLM（如OpenAI），并提供工作流自动化和多代理系统能力，使得复杂AI应用的开发变得简单直观，适合快速原型设计和生产部署。",
+      "stars": 55246,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "rag",
+        "llm",
+        "multi-agent",
+        "workflow-automation"
+      ]
+    },
+    {
+      "name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "summary": "该项目提供了一个详尽教程，指导开发者如何从零开始训练一个64M参数的小型大语言模型，全程仅需约2小时。内容涵盖数据准备、模型架构、训练流程及评估方法，注重实践操作，帮助初学者快速理解LLM核心原理与实现细节。代码开源，语言为Python，具有较高的教学价值和实战参考意义。",
+      "stars": 54461,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "fine-tuning"
+      ]
+    },
+    {
+      "name": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "summary": "Strix是一款开源的AI渗透测试工具，旨在自动发现并修复应用中的安全漏洞。它利用AI代理技术，模拟攻击行为，帮助开发者和安全专家在开发早期识别潜在风险。该项目在GitHub上获得近5万星标，使用Python编写，覆盖AI安全、红队测试、漏洞赏金等多个安全领域，体现了AI与网络安全结合的创新实践。",
+      "stars": 49742,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "ai-security",
+        "security"
+      ]
+    },
+    {
+      "name": "Kong/kong",
+      "url": "https://github.com/Kong/kong",
+      "summary": "Kong是一个云原生、高性能的API网关和AI网关，支持微服务、Kubernetes Ingress、Serverless架构，并集成AI能力如LLM网关和MCP网关。其核心特点包括反向代理、流量管理、安全控制和AI模型路由，适用于现代分布式系统。项目采用Lua编写，拥有丰富的插件生态，支持OpenAI代理等AI功能，是构建云原生应用的优秀基础设施。",
+      "stars": 43948,
+      "language": "Lua",
+      "topics": [
+        "llm",
+        "deployment",
+        "security"
+      ]
+    },
+    {
+      "name": "ItzCrazyKns/Vane",
+      "url": "https://github.com/ItzCrazyKns/Vane",
+      "summary": "Vane是一个开源的AI驱动回答引擎，基于TypeScript实现，融合RAG、SearXNG搜索和LLM推理，支持自托管部署。它通过智能搜索代理（SearXNG Copilot）和多源信息检索，提供精准、实时的AI回答，适合构建个性化AI搜索应用。项目在GitHub上获得35k+星标，社区活跃，技术栈现代。",
+      "stars": 36051,
+      "language": "TypeScript",
+      "topics": [
+        "rag",
+        "agent",
+        "llm",
+        "deployment",
+        "search"
+      ]
+    },
+    {
+      "name": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "summary": "这是一个汇集了500个AI、机器学习、深度学习、计算机视觉和NLP项目的开源仓库，提供了丰富的代码实现。涵盖从基础到高级的多种应用场景，适合学习、参考和二次开发。资源全面，实用性强，是技术学习和项目实践的宝贵资料库。",
+      "stars": 36036,
+      "language": "",
+      "topics": [
+        "deployment",
+        "vision"
+      ]
+    },
+    {
+      "name": "XingangPan/DragGAN",
+      "url": "https://github.com/XingangPan/DragGAN",
+      "summary": "DragGAN是SIGGRAPH 2023的官方代码，通过拖拽图像中的点来控制生成对抗网络（GAN）的输出，实现灵活、精确的图像编辑。该方法创新性地结合了用户交互与GAN的生成能力，支持对姿态、形状等属性进行直观操控，无需复杂的掩码或手动标注。项目提供完整实现，便于复现和扩展，对生成模型和图像编辑领域有重要参考价值，但主要面向具有深度学习基础的研究者和开发者。",
+      "stars": 35780,
+      "language": "Python",
+      "topics": [
+        "vision",
+        "generative-adversarial-network",
+        "image-manipulation"
+      ]
+    },
+    {
+      "name": "explosion/spaCy",
+      "url": "https://github.com/explosion/spaCy",
+      "summary": "spaCy是一个专为工业级NLP任务设计的Python库，采用Cython优化，在速度和内存效率上表现优异。它提供了预训练模型、高效的文本处理流程，支持命名实体识别、词性标注、依存句法分析、文本分类和实体链接等核心功能。其API设计简洁，适合构建生产级系统，是深度学习与NLP应用的基础工具。",
+      "stars": 33813,
+      "language": "Python",
+      "topics": [
+        "llm"
+      ]
+    },
+    {
+      "name": "facebookresearch/fairseq",
+      "url": "https://github.com/facebookresearch/fairseq",
+      "summary": "fairseq是Facebook AI Research开发的序列到序列学习工具包，基于PyTorch实现，支持翻译、摘要、文本生成等任务。该项目提供高性能分布式训练、多种预训练模型和先进架构，如Transformer和LightConv，并易于扩展自定义模型。作为AI领域的重要开源项目，它推动了NLP研究与应用发展。",
+      "stars": 32244,
+      "language": "Python",
+      "topics": [
+        "llm",
+        "fine-tuning",
+        "deployment"
+      ]
+    },
+    {
+      "name": "Lightning-AI/pytorch-lightning",
+      "url": "https://github.com/Lightning-AI/pytorch-lightning",
+      "summary": "PyTorch Lightning是一个轻量级PyTorch封装框架，旨在简化深度学习模型的训练、微调和部署流程。它支持从单GPU到万级GPU的无缝扩展，无需修改代码即可实现分布式训练。该框架提供模块化设计、自动优化和回调机制，显著提升代码可读性和可复用性，适用于研究、工业生产和竞赛场景。其高层API让研究者专注于模型逻辑而非工程细节，同时保持PyTorch的灵活性和生态兼容性。",
+      "stars": 31276,
+      "language": "Python",
+      "topics": [
+        "fine-tuning",
+        "deployment"
+      ]
+    },
+    {
+      "name": "AMAI-GmbH/AI-Expert-Roadmap",
+      "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
+      "summary": "该项目提供了一个系统化的AI学习路线图，涵盖从基础数学、编程到机器学习、深度学习、数据科学等核心领域，并包含实践项目和资源推荐。虽然内容基于2022年，但核心知识体系仍然适用，适合初学者和中级学习者规划学习路径，但缺乏对最新AI技术如大语言模型的前沿覆盖。",
+      "stars": 31197,
+      "language": "JavaScript",
+      "topics": [
+        "llm"
+      ]
+    },
+    {
+      "name": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "summary": "AIHawk是一个基于Python的AI代理应用，利用ChatGPT等大模型自动优化简历并针对不同职位进行个性化申请，支持通过Selenium自动化浏览器操作，大幅提升求职效率。项目已获30k+星标，展示了AI在人力资源领域的实际应用潜力，适合对AI自动化工具感兴趣的开发者和求职者。",
+      "stars": 30125,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "tool-use",
+        "automation"
+      ]
+    },
+    {
+      "name": "simstudioai/sim",
+      "url": "https://github.com/simstudioai/sim",
+      "summary": "Sim是一个用TypeScript开发的开源AI代理平台，支持构建、部署和编排多个AI代理，提供agentic workflow、RAG、多模型集成（如OpenAI、Anthropic、DeepSeek等）和低代码/无代码界面。其核心是作为AI工作力量的中央智能层，帮助团队高效管理自动化流程和聊天机器人，适合从原型到生产的快速部署。",
+      "stars": 29374,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "multi-agent",
+        "deployment",
+        "rag",
+        "low-code",
+        "workflow"
+      ]
+    }
+  ]
+}

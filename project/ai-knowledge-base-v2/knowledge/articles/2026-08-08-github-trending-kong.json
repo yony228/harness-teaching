@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260808-011",
+  "title": "Kong云原生API与AI网关：开源高性能代理",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Kong/kong",
+  "summary": "Kong是一个云原生、高性能的API网关和AI网关，支持微服务、Kubernetes Ingress、Serverless架构，并集成AI能力如LLM网关和MCP网关。其核心特点包括反向代理、流量管理、安全控制和AI模型路由，适用于现代分布式系统。项目采用Lua编写，拥有丰富的插件生态，支持OpenAI代理等AI功能，是构建云原生应用的优秀基础设施。",
+  "tags": [
+    "llm",
+    "deployment",
+    "security"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-08T08:33:45Z",
+  "updated_at": "2026-08-08T08:33:45Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 43948,
+    "original_name": "Kong/kong",
+    "language": "Lua",
+    "highlights": []
+  }
+}
