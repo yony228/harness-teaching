@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260810-019",
+  "title": "AIHawk：开源AI求职代理，自动生成简历并精准投递",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+  "summary": "AIHawk是一款基于Python的开源AI求职工具，利用GPT等大语言模型为每个职位自动生成定制化的简历和求职信，并通过Selenium自动化浏览器操作，在招聘网站上自动投递申请。该项目集成了智能简历解析、职位匹配和自动化提交功能，显著提升求职效率。其创新点在于将LLM的生成能力与浏览器自动化相结合，形成了端到端的求职自动化流程，为AI在人力资源领域的应用提供了优秀范例。",
+  "tags": [
+    "agent",
+    "llm",
+    "tool-use"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-10T09:13:06Z",
+  "updated_at": "2026-08-10T09:13:06Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 30143,
+    "original_name": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+    "language": "Python",
+    "highlights": []
+  }
+}
