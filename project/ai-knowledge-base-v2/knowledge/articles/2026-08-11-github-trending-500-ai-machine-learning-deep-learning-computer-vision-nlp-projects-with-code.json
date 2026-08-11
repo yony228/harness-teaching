@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260811-012",
+  "title": "500个AI与机器学习项目代码合集：覆盖CV、NLP与深度学习",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+  "summary": "该仓库收集了500个涵盖人工智能、机器学习、深度学习、计算机视觉和自然语言处理的项目，每个项目均附有代码实现。内容广泛，包括图像分类、目标检测、文本生成、情感分析等经典任务，适合作为学习参考和实战练习的资源库。虽无原创性突破，但胜在项目数量庞大、覆盖面广，对开发者快速上手和扩展视野有较高价值。",
+  "tags": [
+    "vision",
+    "code-generation"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-08-11T08:48:23Z",
+  "updated_at": "2026-08-11T08:48:23Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 36132,
+    "original_name": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+    "language": "",
+    "highlights": []
+  }
+}
