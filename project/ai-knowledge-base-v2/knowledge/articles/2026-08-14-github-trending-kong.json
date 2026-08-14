@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260814-011",
+  "title": "Kong API与AI网关：云原生智能流量管理平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Kong/kong",
+  "summary": "Kong/kong 是一个高性能、云原生的 API 网关，支持 AI 网关功能，提供 LLM 代理、MCP 网关、Kubernetes Ingress Controller 等能力。它基于 Lua 和 OpenResty 构建，能够处理微服务架构中的流量路由、认证、限流、监控等需求，并扩展了针对 AI 服务的代理和编排能力，适合构建智能服务调用和管理的中间层。",
+  "tags": [
+    "llm",
+    "deployment",
+    "mcp"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-14T09:02:54Z",
+  "updated_at": "2026-08-14T09:02:54Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 43983,
+    "original_name": "Kong/kong",
+    "language": "Lua",
+    "highlights": []
+  }
+}
