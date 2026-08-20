@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260820-001",
+  "title": "AutoGPT：全功能自主AI智能体框架",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "summary": "AutoGPT是一个开源AI智能体框架，旨在使AI技术普及化，支持构建自主代理以执行复杂任务。其核心亮点包括多模型兼容（如GPT、Claude、Llama）、模块化设计及工具集成能力，适用于从研究到自动化的多种场景。项目社区活跃，星标超18万，为开发者提供灵活、可扩展的AI解决方案。",
+  "tags": [
+    "agent",
+    "multi-agent",
+    "llm",
+    "tool-use"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-20T08:30:39Z",
+  "updated_at": "2026-08-20T08:30:39Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 186691,
+    "original_name": "Significant-Gravitas/AutoGPT",
+    "language": "Python",
+    "highlights": []
+  }
+}
