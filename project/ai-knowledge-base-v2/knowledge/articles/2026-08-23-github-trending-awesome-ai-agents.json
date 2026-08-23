@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260823-019",
+  "title": "AI自主代理资源大全：精选框架与工具",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/e2b-dev/awesome-ai-agents",
+  "summary": "该项目是一个精选的AI自主代理（Autonomous Agents）资源列表，收录了AutoGPT、BabyAGI等经典项目以及最新的多代理框架、工具和平台。内容涵盖代理设计、记忆、规划、工具使用等核心模块，并附带实用示例和社区资源。对于快速了解该领域生态、获取前沿技术方案具有较高参考价值，适合开发者按需检索。",
+  "tags": [
+    "agent",
+    "multi-agent",
+    "tool-use",
+    "llm"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-23T08:22:35Z",
+  "updated_at": "2026-08-23T08:22:35Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 29625,
+    "original_name": "e2b-dev/awesome-ai-agents",
+    "language": "",
+    "highlights": []
+  }
+}
