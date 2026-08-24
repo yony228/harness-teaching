@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260824-019",
+  "title": "大语言模型上下文学习与提示工程资源大全",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/EgoAlpha/prompt-in-context-learning",
+  "summary": "该项目整理了关于上下文学习和提示工程的丰富资源，涵盖ChatGPT、GPT-3、FlanT5等主流LLM的进阶技巧，包括思维链、基于提示的学习以及最新前沿更新。适合希望系统掌握提示工程和上下文学习技术的开发者，提供了从基础到高级的全面指南。",
+  "tags": [
+    "llm",
+    "prompt-engineering",
+    "reasoning"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 2248,
+    "original_name": "EgoAlpha/prompt-in-context-learning",
+    "language": "Jupyter Notebook",
+    "highlights": []
+  }
+}

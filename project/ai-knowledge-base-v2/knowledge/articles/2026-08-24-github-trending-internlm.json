@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260824-008",
+  "title": "InternLM系列大模型官方开源实现与工具链",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/InternLM/InternLM",
+  "summary": "InternLM官方仓库提供系列大模型（InternLM、InternLM2、2.5、3）的预训练权重、微调代码及推理支持，集成FlashAttention和长上下文能力，并配套RLHF训练流程。项目聚焦中文场景，适合学术研究和工业部署，社区活跃，是LLM领域的重要参考实现。",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "deployment"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 7269,
+    "original_name": "InternLM/InternLM",
+    "language": "Python",
+    "highlights": []
+  }
+}

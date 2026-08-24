@@ -1,0 +1,26 @@
+{
+  "id": "gith-20260824-006",
+  "title": "Rig：用Rust构建模块化可扩展LLM应用的框架",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/0xPlaygrounds/rig",
+  "summary": "Rig是一个用Rust编写的LLM应用开发框架，强调模块化和可扩展性。它提供统一的接口来集成多种大语言模型（如OpenAI、Anthropic等），支持Agent、RAG、工具调用等高级功能，并利用Rust的性能和内存安全优势，为构建高效、可靠的AI应用提供了坚实的基础。该项目在GitHub上已获得8380颗星，是Rust生态中备受关注的AI工具。",
+  "tags": [
+    "agent",
+    "rag",
+    "llm",
+    "tool-use",
+    "deployment"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 8380,
+    "original_name": "0xPlaygrounds/rig",
+    "language": "Rust",
+    "highlights": []
+  }
+}

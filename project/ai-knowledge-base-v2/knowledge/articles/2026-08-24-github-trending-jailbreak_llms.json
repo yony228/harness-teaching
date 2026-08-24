@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260824-012",
+  "title": "大规模ChatGPT越狱提示词数据集",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/verazuo/jailbreak_llms",
+  "summary": "该数据集收录了15,140条ChatGPT提示词，涵盖Reddit、Discord、网站及开源数据源，其中包括1,405条越狱提示词，为研究LLM安全性和越狱攻击提供了宝贵资源。该工作发表于CCS'24，具有较高的学术价值和实用参考意义。",
+  "tags": [
+    "security",
+    "llm"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 3792,
+    "original_name": "verazuo/jailbreak_llms",
+    "language": "Jupyter Notebook",
+    "highlights": []
+  }
+}

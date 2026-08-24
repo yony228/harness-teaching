@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260824-020",
+  "title": "英特尔LLM优化工具包：压缩推理与聊天机器人构建",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/intel/intel-extension-for-transformers",
+  "summary": "该工具包提供针对Intel平台的LLM压缩（如4-bit量化）和高效推理方案，支持Chatbot、RAG等应用快速搭建，集成Habana Gaudi等硬件优化，适合在Intel CPU/GPU上部署大模型。",
+  "tags": [
+    "llm",
+    "deployment",
+    "rag"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 2174,
+    "original_name": "intel/intel-extension-for-transformers",
+    "language": "Python",
+    "highlights": []
+  }
+}

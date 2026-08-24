@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260824-011",
+  "title": "在Apple Silicon上构建微型LLM推理系统：面向系统工程师的实践课程",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/skyzh/tiny-llm",
+  "summary": "这是一个面向系统工程师的LLM推理系统学习项目，指导用户从零构建类似vLLM的推理引擎，并支持Qwen模型。项目聚焦于Apple Silicon平台，深入讲解推理系统的核心组件如调度、缓存、批处理等，适合希望理解LLM服务底层原理的开发者。代码清晰，实践性强，星标超4.5k，是优秀的技术分享。",
+  "tags": [
+    "llm",
+    "deployment"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 4514,
+    "original_name": "skyzh/tiny-llm",
+    "language": "Python",
+    "highlights": []
+  }
+}

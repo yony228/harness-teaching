@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260824-015",
+  "title": "LISA：基于大语言模型的推理分割框架",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/JIA-Lab-research/LISA",
+  "summary": "LISA项目提出了一种创新的推理分割方法，通过结合大型语言模型和多模态分割模型，实现了根据复杂语言描述进行精确的图像分割。其亮点在于利用LLM的推理能力理解隐含的指代关系，并生成相应的分割掩码。该方法在多个基准数据集上表现出色，支持零样本泛化，推动了视觉-语言交互在精细图像理解领域的发展。",
+  "tags": [
+    "llm",
+    "vision",
+    "multi-agent"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 2672,
+    "original_name": "JIA-Lab-research/LISA",
+    "language": "Python",
+    "highlights": []
+  }
+}

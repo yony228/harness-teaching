@@ -1,0 +1,26 @@
+{
+  "id": "gith-20260824-018",
+  "title": "LLM驱动智能体资源大全：论文、代码与前沿实践",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/hyp1231/awesome-llm-powered-agent",
+  "summary": "这是一个关于LLM驱动智能体的精选资源列表，涵盖论文、代码库、博客等，汇总了从基础理论到实际应用的前沿内容，包括生成式智能体、具身智能、基础模型等主题。该仓库持续更新，为研究者和开发者提供了系统学习与参考的入口，具有较高的收藏和导航价值。",
+  "tags": [
+    "agent",
+    "llm",
+    "multi-agent",
+    "embodied-agent",
+    "foundation-model"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 2253,
+    "original_name": "hyp1231/awesome-llm-powered-agent",
+    "language": "",
+    "highlights": []
+  }
+}

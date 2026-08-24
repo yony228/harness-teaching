@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260824-003",
+  "title": "Pocket Flow：从代码库到教程的LLM应用开发框架",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
+  "summary": "该仓库提供了一个名为Pocket Flow的轻量级LLM框架，通过简洁的代码实现复杂AI应用，并配套详细教程。其核心亮点在于将代码库转化为教学资源，帮助开发者快速理解LLM应用架构，支持agent、多代理协作等场景，适合学习与实践。",
+  "tags": [
+    "llm",
+    "agent",
+    "multi-agent"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 12630,
+    "original_name": "The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
+    "language": "Python",
+    "highlights": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260824-010",
+  "title": "用Ollama在iOS上安全聊天：Enchanted应用",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/gluonfield/enchanted",
+  "summary": "Enchanted是一款iOS和macOS应用，通过Ollama与本地自托管大语言模型（如Llama2、Mistral、Vicuna）进行私密聊天。该应用提供原生SwiftUI体验，支持多模型切换和流式响应，确保数据不出设备，满足隐私敏感场景。适合希望在移动端部署和测试私有LLM的开发者。",
+  "tags": [
+    "llm",
+    "deployment"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 5997,
+    "original_name": "gluonfield/enchanted",
+    "language": "Swift",
+    "highlights": []
+  }
+}

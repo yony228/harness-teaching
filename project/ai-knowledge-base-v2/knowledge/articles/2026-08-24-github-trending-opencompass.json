@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260824-007",
+  "title": "OpenCompass：全栈式大语言模型评测平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/open-compass/opencompass",
+  "summary": "OpenCompass是一个开源的大语言模型（LLM）评测平台，支持Llama3、Mistral、InternLM2、GPT-4、Qwen、GLM、Claude等100+模型，覆盖100+数据集。它提供全面、客观的评测能力，包括标准评测、长文本评测、代码评测等，并支持分布式评测和自定义任务。其模块化设计便于集成新模型和数据集，是学术界和工业界评估LLM性能的重要工具。",
+  "tags": [
+    "llm",
+    "evaluation"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 7332,
+    "original_name": "open-compass/opencompass",
+    "language": "Python",
+    "highlights": []
+  }
+}

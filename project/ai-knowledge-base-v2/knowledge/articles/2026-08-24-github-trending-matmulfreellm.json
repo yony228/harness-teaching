@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260824-013",
+  "title": "免矩阵乘法的大语言模型实现",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/ridgerchu/matmulfreellm",
+  "summary": "MatMulFreeLM是一种无需矩阵乘法运算的大语言模型实现，通过替代传统Transformer中的矩阵乘法操作，显著降低计算复杂度。该项目提供了完整的实现代码，展示了如何在保持模型性能的同时提升推理效率，适用于资源受限环境。该技术具有创新性，为高效LLM设计提供了新思路。",
+  "tags": [
+    "llm",
+    "deployment"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 3088,
+    "original_name": "ridgerchu/matmulfreellm",
+    "language": "Python",
+    "highlights": []
+  }
+}

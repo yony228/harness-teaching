@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260824-004",
+  "title": "PocketFlow：百行代码实现LLM智能体框架，让AI构建AI",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/The-Pocket/PocketFlow",
+  "summary": "PocketFlow是一个极简的LLM框架，仅用100行代码实现了完整的智能体工作流编排。它采用流式编程范式，支持快速构建多智能体协作系统，并强调让AI Agent自主构建Agent的能力。该项目社区活跃，星标超1.1万，为开发者提供了轻量、灵活的工具，适用于复杂任务分解、流程自动化等场景，是探索Agentic AI的优秀起点。",
+  "tags": [
+    "llm",
+    "agent",
+    "multi-agent"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 11125,
+    "original_name": "The-Pocket/PocketFlow",
+    "language": "Python",
+    "highlights": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260824-009",
+  "title": "原子化构建AI代理：Eigenwise/atomic-agents框架解析",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Eigenwise/atomic-agents",
+  "summary": "atomic-agents是一个基于Python的AI代理构建框架，强调以原子化、模块化的方式组合AI代理，提升开发效率和可维护性。其核心亮点在于将复杂代理拆分为独立可复用的组件，支持OpenAI等大语言模型API，并提供灵活的工具集成机制。该项目在GitHub上获得6196星标，适合关注AI代理架构和LLM应用开发的开发者，尤其对希望从传统单体代理转向细粒度设计的工程师具有参考价值。",
+  "tags": [
+    "agent",
+    "multi-agent",
+    "tool-use",
+    "llm"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-24T08:41:16Z",
+  "updated_at": "2026-08-24T08:41:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 6196,
+    "original_name": "Eigenwise/atomic-agents",
+    "language": "Python",
+    "highlights": []
+  }
+}
