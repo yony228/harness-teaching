@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260825-005",
+  "title": "Claude-Mem：跨会话持久上下文记忆引擎",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/thedotmack/claude-mem",
+  "summary": "Claude-Mem是一个为AI代理提供长期记忆的开源项目，能够捕获所有会话活动，通过AI压缩提取关键信息，并在未来会话中自动注入相关上下文。支持Claude Code、Codex、Gemini等主流代理，采用ChromaDB和SQLite进行向量与结构化存储，实现高效的RAG检索。项目星标超9万，成为AI记忆基础设施的热门工具，显著提升多会话场景下的连续性和个性化体验。",
+  "tags": [
+    "agent",
+    "rag",
+    "llm",
+    "memory"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-25T08:35:07Z",
+  "updated_at": "2026-08-25T08:35:07Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 91764,
+    "original_name": "thedotmack/claude-mem",
+    "language": "JavaScript",
+    "highlights": []
+  }
+}
