@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260827-002",
+  "title": "社区驱动的ChatGPT提示词共享与发现平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/f/prompts.chat",
+  "summary": "这是一个开源的提示词集合项目，原名Awesome ChatGPT Prompts，现名为prompts.chat。它允许用户分享、发现和收集来自社区的ChatGPT提示词，并支持自托管以保护隐私。项目以HTML和TypeScript构建，星标数高达16.8万，反映了其在提示词工程领域的广泛影响力。该平台聚焦于LLM应用，为初学者和进阶用户提供了丰富的提示词资源，是提示词工程实践的重要参考。",
+  "tags": [
+    "prompt-engineering",
+    "llm"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-08-27T18:44:05Z",
+  "updated_at": "2026-08-27T18:44:05Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 168080,
+    "original_name": "f/prompts.chat",
+    "language": "HTML",
+    "highlights": []
+  }
+}
