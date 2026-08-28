@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260828-005",
+  "title": "Claude-Mem：跨会话AI记忆引擎突破",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/thedotmack/claude-mem",
+  "summary": "claude-mem为所有AI代理提供持久化上下文记忆，自动捕获会话过程，通过AI压缩并注入相关记忆至未来会话。支持Claude Code、Codex、Gemini等众多代理，基于SQLite和向量检索，实现跨session的无缝记忆。该项目以92.5k星标成为热门的AI记忆方案，解决了LLM短上下文痛点，极大提升工作效率。",
+  "tags": [
+    "agent",
+    "rag",
+    "llm"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-28T19:50:23Z",
+  "updated_at": "2026-08-28T19:50:23Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 92501,
+    "original_name": "thedotmack/claude-mem",
+    "language": "JavaScript",
+    "highlights": []
+  }
+}
