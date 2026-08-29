@@ -1,0 +1,26 @@
+{
+  "id": "gith-20260829-011",
+  "title": "Kong：云原生API与AI网关，支持LLM与MCP协议",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Kong/kong",
+  "summary": "Kong是一款开源的高性能API网关，现已扩展为AI网关，支持LLM代理、MCP网关等功能。其基于Nginx和OpenResty，提供丰富的插件生态，适用于微服务、Kubernetes环境，可管理南北向和东西向流量，并整合AI服务，实现智能路由、限流和安全管理。星标超44k，社区活跃，是企业级API管理和AI服务接入的理想选择。",
+  "tags": [
+    "deployment",
+    "security",
+    "llm",
+    "mcp",
+    "agent"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-29T13:32:40Z",
+  "updated_at": "2026-08-29T13:32:40Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 44057,
+    "original_name": "Kong/kong",
+    "language": "Lua",
+    "highlights": []
+  }
+}

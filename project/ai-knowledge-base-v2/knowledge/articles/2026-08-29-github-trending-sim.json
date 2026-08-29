@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260829-020",
+  "title": "Sim：协作式AI智能体构建与监控平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/simstudioai/sim",
+  "summary": "Sim是一个开源的协作工作空间，旨在构建、部署和监控AI智能体与工作流。它采用TypeScript开发，支持低代码/无代码操作，集成了OpenAI、Anthropic、Gemini等主流模型，并支持RAG等功能。该项目拥有近3万星标，被超过10万开发者使用，展示了其在AI智能体开发领域的实用性和社区认可度。",
+  "tags": [
+    "agent",
+    "deployment",
+    "low-code",
+    "multi-agent"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-08-29T13:32:40Z",
+  "updated_at": "2026-08-29T13:32:40Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 29489,
+    "original_name": "simstudioai/sim",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
