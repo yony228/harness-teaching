@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260831-008",
+  "title": "开源AI渗透测试工具Strix：应用安全漏洞检测与修复",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/usestrix/strix",
+  "summary": "Strix是一款基于Python的开源AI渗透测试工具，专为发现和修复应用程序中的安全漏洞而设计。它结合了LLM安全与红队技术，通过自动化方式对AI应用进行攻击模拟和漏洞扫描，帮助开发者提升代码质量和安全性。该工具支持bug bounty、CTF竞赛及日常安全测试，适合用于AI安全评估与渗透测试工作流。其创新之处在于将AI能力与渗透测试深度融合，为AI应用安全提供了实用的解决方案。",
+  "tags": [
+    "security",
+    "agents",
+    "llm",
+    "tool-use"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-08-31T15:45:18Z",
+  "updated_at": "2026-08-31T15:45:18Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 59664,
+    "original_name": "usestrix/strix",
+    "language": "Python",
+    "highlights": []
+  }
+}
