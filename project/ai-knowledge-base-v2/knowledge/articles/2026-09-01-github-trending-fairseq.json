@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260901-017",
+  "title": "Fairseq：Facebook AI开源序列到序列学习工具包",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/facebookresearch/fairseq",
+  "summary": "Fairseq是Facebook AI Research开发的用于序列到序列学习的Python工具包，基于PyTorch实现。它提供了丰富的预训练模型和训练接口，支持机器翻译、文本摘要、语言建模等任务。其核心亮点在于高效的多GPU训练能力和灵活的可扩展架构，广泛应用于NLP研究领域。工具包内置了多种先进的模型架构和优化算法，便于研究者和开发者快速复现实验并部署模型。作为业界知名的开源项目，Fairseq推动了NLP技术的发展，适合深度学习研究者及开发者使用。",
+  "tags": [
+    "llm",
+    "fine-tuning"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-09-01T12:58:16Z",
+  "updated_at": "2026-09-01T12:58:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 32229,
+    "original_name": "facebookresearch/fairseq",
+    "language": "Python",
+    "highlights": []
+  }
+}

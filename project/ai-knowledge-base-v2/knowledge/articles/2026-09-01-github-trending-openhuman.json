@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260901-012",
+  "title": "开源Rust项目OpenHuman：本地优先的个人AI超级智能",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/tinyhumansai/openhuman",
+  "summary": "OpenHuman是一个用Rust编写的开源AI项目，旨在构建一个本地优先的个人AI超级智能系统。它能够打造用户生活的本地记忆库，并作为智能体集群和工作流的编排器，同时具备深度研究能力。该项目在GitHub上已获近4万星标，属于多智能体与工作流自动化领域的优秀技术分享，适合对agent框架和本地优先AI感兴趣的开发者。",
+  "tags": [
+    "agent",
+    "multi-agent",
+    "llm",
+    "workflow-automation"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-09-01T12:58:16Z",
+  "updated_at": "2026-09-01T12:58:16Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 39274,
+    "original_name": "tinyhumansai/openhuman",
+    "language": "Rust",
+    "highlights": []
+  }
+}
