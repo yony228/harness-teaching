@@ -1,0 +1,26 @@
+{
+  "id": "gith-20260903-012",
+  "title": "开源本地优先AI超级智能框架",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/tinyhumansai/openhuman",
+  "summary": "OpenHuman是一个基于Rust的AI代理框架，旨在构建本地优先的个人AI超级智能。其核心亮点包括：1）通过本地优先存储构建个人生活记忆，增强上下文感知；2）支持多代理协调（multi-agent）与工作流自动化，可编排复杂任务；3）集成深度研究功能，辅助用户高效获取知识。该项目强调隐私与数据自主权，适合构建个性化AI助手，技术架构新颖，社区活跃（近40k星标）。",
+  "tags": [
+    "agent",
+    "multi-agent",
+    "llm",
+    "workflow-automation",
+    "local-first"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-09-03T12:28:37Z",
+  "updated_at": "2026-09-03T12:28:37Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 39371,
+    "original_name": "tinyhumansai/openhuman",
+    "language": "Rust",
+    "highlights": []
+  }
+}
