@@ -1,0 +1,24 @@
+{
+  "id": "gith-20260908-013",
+  "title": "Vane：开源AI驱动的智能问答引擎",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/ItzCrazyKns/Vane",
+  "summary": "Vane是一个基于TypeScript构建的AI驱动问答引擎，支持RAG、可自托管，并集成了多种搜索与LLM技术。其核心亮点在于开源、可定制性强，允许用户通过问答界面获取精准答案，并支持实时信息检索与知识库集成。该项目在GitHub上获得超过36k星标，展现了其广泛的社区认可度，可作为个人或企业构建AI搜索、助手或知识管理工具的基础。",
+  "tags": [
+    "rag",
+    "llm",
+    "agent"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-09-08T12:31:47Z",
+  "updated_at": "2026-09-08T12:31:47Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 36680,
+    "original_name": "ItzCrazyKns/Vane",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
