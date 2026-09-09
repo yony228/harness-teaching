@@ -1,0 +1,22 @@
+{
+  "id": "gith-20260909-015",
+  "title": "spaCy：工业级Python自然语言处理库",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/explosion/spaCy",
+  "summary": "spaCy是一个专为实际应用设计的NLP库，支持命名实体识别、分词、句法分析、文本分类等功能，采用Cython优化，性能卓越。它提供预训练模型和多语言支持，广泛应用于信息提取和文本分析，是NLP领域的重要工具。",
+  "tags": [
+    "llm"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-09-09T12:37:55Z",
+  "updated_at": "2026-09-09T12:37:55Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 33888,
+    "original_name": "explosion/spaCy",
+    "language": "Python",
+    "highlights": []
+  }
+}
