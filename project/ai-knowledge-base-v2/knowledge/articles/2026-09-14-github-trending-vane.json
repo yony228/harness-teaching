@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260914-013",
+  "title": "Vane：开源自托管AI搜索引擎与答案引擎",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/ItzCrazyKns/Vane",
+  "summary": "Vane 是一个基于 TypeScript 构建的 AI 驱动答案引擎，融合了 RAG、LLM 与 SearXNG 等技术，可作为 Perplexica 的衍生方案进行自托管部署。项目支持 AI Agent 式搜索与问答，强调开源与隐私可控，适合希望自建 AI 搜索服务的开发者与团队。其高星标数反映了社区对自托管 AI 搜索方向的强烈关注。",
+  "tags": [
+    "rag",
+    "agent",
+    "llm",
+    "deployment"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-09-14T14:38:54Z",
+  "updated_at": "2026-09-14T14:38:54Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 36764,
+    "original_name": "ItzCrazyKns/Vane",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
