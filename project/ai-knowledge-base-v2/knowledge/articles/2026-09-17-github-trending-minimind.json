@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260917-009",
+  "title": "2小时从零训练64M参数小型语言模型",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/jingyaogong/minimind",
+  "summary": "该项目提供了一套完整的从零训练小型语言模型（64M参数）的流程，包括数据准备、模型架构、训练脚本和推理代码。强调在单卡或消费级硬件上仅需2小时即可完成训练，降低了LLM训练的门槛，适合学习Transformer和LLM原理的实践。代码开源且文档清晰，便于快速复现和修改。",
+  "tags": [
+    "llm",
+    "fine-tuning"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-09-17T12:56:47Z",
+  "updated_at": "2026-09-17T12:56:47Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 61436,
+    "original_name": "jingyaogong/minimind",
+    "language": "Python",
+    "highlights": []
+  }
+}
