@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260918-005",
+  "title": "Claude-mem：为AI代理提供跨会话持久化上下文记忆",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/thedotmack/claude-mem",
+  "summary": "thedotmack/claude-mem 是一个 TypeScript 实现的开源项目，旨在于不同会话之间为各类 AI 代理提供持久化上下文。它会捕捉代理在会话中的所有行为，通过 AI 进行压缩，并在未来会话中自动注入相关上下文。项目兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种代理框架，结合 ChromaDB、SQLite 和嵌入向量实现长期记忆与 RAG 检索，星标已超过 9 万，是 AI 记忆工程领域的代表性方案。",
+  "tags": [
+    "agent",
+    "rag",
+    "multi-agent",
+    "tool-use"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-09-18T12:35:59Z",
+  "updated_at": "2026-09-18T12:35:59Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 94166,
+    "original_name": "thedotmack/claude-mem",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
