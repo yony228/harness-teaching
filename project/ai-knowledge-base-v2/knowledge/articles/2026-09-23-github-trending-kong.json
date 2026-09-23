@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260923-011",
+  "title": "Kong：面向API与AI的统一网关平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Kong/kong",
+  "summary": "Kong 是一个高性能的开源 API 网关，现已扩展为同时支持 AI 网关与 MCP 网关。它基于 Lua 构建，具备云原生、Kubernetes Ingress 控制器、反向代理和服务网格等能力，可用于微服务治理、API 管理以及 LLM 代理与运维，帮助团队在传统 API 与 AI 工作负载之间实现统一的流量管理、安全与可观测性。",
+  "tags": [
+    "mcp",
+    "llm",
+    "deployment",
+    "security"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-09-23T13:14:07Z",
+  "updated_at": "2026-09-23T13:14:07Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 44182,
+    "original_name": "Kong/kong",
+    "language": "Lua",
+    "highlights": []
+  }
+}
