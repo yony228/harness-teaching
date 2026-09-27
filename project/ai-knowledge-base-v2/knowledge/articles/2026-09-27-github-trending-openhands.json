@@ -1,0 +1,25 @@
+{
+  "id": "gith-20260927-006",
+  "title": "OpenHands：AI驱动的智能开发代理平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/OpenHands/OpenHands",
+  "summary": "OpenHands 是一个基于大语言模型驱动的软件开发代理平台，支持多种主流 AI 模型（如 GPT、Claude 等），可通过 CLI 和聊天界面与开发者协作，自动完成代码生成、调试和任务执行等开发流程。项目采用 TypeScript 构建，拥有近 9 万星标，适用于希望将 AI 代理集成到开发工作流中的技术人员。",
+  "tags": [
+    "agent",
+    "llm",
+    "code-generation",
+    "tool-use"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-09-27T13:28:39Z",
+  "updated_at": "2026-09-27T13:28:39Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 89282,
+    "original_name": "OpenHands/OpenHands",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
