@@ -1,0 +1,23 @@
+{
+  "id": "gith-20260930-014",
+  "title": "DragGAN：基于点拖拽的生成图像精准编辑方法",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/XingangPan/DragGAN",
+  "summary": "DragGAN 是 SIGGRAPH 2023 的官方代码实现，提出了一种通过拖拽控制点来精确编辑生成图像内容的交互式方法。用户只需在图像上指定若干控制点和目标位置，算法即可在生成对抗网络的潜在空间中优化，使图像内容（如物体姿态、形状、表情等）朝着目标方向发生形变，同时保持真实感与一致性。该方法无需重新训练模型，即可实现细粒度、可交互的图像操控，在生成模型可控编辑领域具有重要影响力。",
+  "tags": [
+    "vision",
+    "fine-tuning"
+  ],
+  "score": 10,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-09-30T14:30:41Z",
+  "updated_at": "2026-09-30T14:30:41Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 35745,
+    "original_name": "XingangPan/DragGAN",
+    "language": "Python",
+    "highlights": []
+  }
+}
