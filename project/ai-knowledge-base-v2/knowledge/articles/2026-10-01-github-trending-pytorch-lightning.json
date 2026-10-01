@@ -1,0 +1,23 @@
+{
+  "id": "gith-20261001-017",
+  "title": "PyTorch Lightning：万卡级AI模型训练框架",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Lightning-AI/pytorch-lightning",
+  "summary": "PyTorch Lightning 是一个轻量级 PyTorch 封装框架，支持在 1 到 10000+ GPU 上零代码修改地预训练和微调任意规模 AI 模型。它通过解耦科研代码与工程代码，简化分布式训练、混合精度和模型部署，已成为深度学习领域广泛采用的高层训练工具，GitHub 星标超过 3.1 万。",
+  "tags": [
+    "fine-tuning",
+    "deployment"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-10-01T15:00:19Z",
+  "updated_at": "2026-10-01T15:00:19Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 31371,
+    "original_name": "Lightning-AI/pytorch-lightning",
+    "language": "Python",
+    "highlights": []
+  }
+}
