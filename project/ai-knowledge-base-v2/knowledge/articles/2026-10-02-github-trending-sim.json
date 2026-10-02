@@ -1,0 +1,26 @@
+{
+  "id": "gith-20261002-020",
+  "title": "Sim：协作式AI代理与工作流构建部署监控平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/simstudioai/sim",
+  "summary": "Sim是面向AI代理与工作流的协作工作空间，支持低代码/无代码构建、部署和监控。已服务超10万开发者，技术栈基于TypeScript、Next.js和React。平台集成OpenAI、Anthropic、Gemini、DeepSeek等主流模型，覆盖RAG与自动化场景，让多代理工作流编排和聊天机器人开发更高效。",
+  "tags": [
+    "agent",
+    "multi-agent",
+    "rag",
+    "deployment",
+    "llm"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-10-02T14:23:11Z",
+  "updated_at": "2026-10-02T14:23:11Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 29767,
+    "original_name": "simstudioai/sim",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
