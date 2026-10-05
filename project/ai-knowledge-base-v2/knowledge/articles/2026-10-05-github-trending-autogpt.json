@@ -1,0 +1,26 @@
+{
+  "id": "gith-20261005-001",
+  "title": "AutoGPT：人人可用的自主AI智能体平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "summary": "AutoGPT是GitHub上最受关注的开源AI智能体项目之一，拥有超过18万星标。它致力于让每个人都能使用和构建AI，提供完整的工具链支持自主智能体运行复杂任务。基于Python开发，支持OpenAI GPT、Claude、Llama等多种大语言模型，涵盖任务分解、工具调用、自主决策等核心能力，是agentic AI领域的标杆性项目，推动了自主智能体技术的普及与发展。",
+  "tags": [
+    "agent",
+    "multi-agent",
+    "llm",
+    "tool-use",
+    "code-generation"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-10-05T16:41:58Z",
+  "updated_at": "2026-10-05T16:41:58Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 187652,
+    "original_name": "Significant-Gravitas/AutoGPT",
+    "language": "Python",
+    "highlights": []
+  }
+}

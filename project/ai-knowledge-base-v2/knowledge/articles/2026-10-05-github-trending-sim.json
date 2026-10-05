@@ -1,0 +1,27 @@
+{
+  "id": "gith-20261005-020",
+  "title": "Sim：协作式AI智能体与工作流构建平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/simstudioai/sim",
+  "summary": "Sim是一个开源协作工作空间，用于构建、部署和监控AI智能体与工作流。它支持OpenAI、Anthropic、Gemini、DeepSeek等多种LLM，提供低代码/无代码的可视化编排能力，并集成RAG与自动化功能。项目采用Next.js和TypeScript开发，已吸引超过10万构建者使用，星标数近3万，适合快速搭建智能体应用。",
+  "tags": [
+    "agent",
+    "rag",
+    "llm",
+    "multi-agent",
+    "tool-use",
+    "deployment"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-10-05T16:41:58Z",
+  "updated_at": "2026-10-05T16:41:58Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 29779,
+    "original_name": "simstudioai/sim",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
