@@ -1,0 +1,26 @@
+{
+  "id": "gith-20261008-004",
+  "title": "claude-mem：为AI智能体提供跨会话持久记忆引擎",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/thedotmack/claude-mem",
+  "summary": "claude-mem 是一个基于 TypeScript 的持久上下文记忆系统，能够捕获 AI 智能体在会话中的所有操作，利用 AI 压缩信息，并将相关上下文注入未来会话。它支持 Claude Code、Codex、Gemini、Copilot 等主流智能体，结合 SQLite、ChromaDB 和嵌入技术实现长期记忆与 RAG，让智能体具备跨会话的连续记忆能力。",
+  "tags": [
+    "agent",
+    "rag",
+    "llm",
+    "tool-use",
+    "multi-agent"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-10-08T15:07:56Z",
+  "updated_at": "2026-10-08T15:07:56Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 98174,
+    "original_name": "thedotmack/claude-mem",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
