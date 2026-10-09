@@ -1,0 +1,26 @@
+{
+  "id": "gith-20261009-010",
+  "title": "Flowise：可视化构建AI代理与工作流",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/FlowiseAI/Flowise",
+  "summary": "Flowise是一个开源的低代码/无代码平台，通过可视化拖拽界面帮助开发者快速构建AI代理、多代理系统和RAG应用。基于TypeScript和LangChain，支持OpenAI、ChatGPT等模型，内置聊天机器人、工作流自动化等能力，星标超过5.5万，极大降低了AI应用开发门槛。",
+  "tags": [
+    "agent",
+    "rag",
+    "llm",
+    "multi-agent",
+    "deployment"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-10-09T14:53:09Z",
+  "updated_at": "2026-10-09T14:53:09Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 55496,
+    "original_name": "FlowiseAI/Flowise",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}
