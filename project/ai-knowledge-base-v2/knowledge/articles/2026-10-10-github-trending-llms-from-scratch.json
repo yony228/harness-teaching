@@ -1,0 +1,25 @@
+{
+  "id": "gith-20261010-003",
+  "title": "从零手写ChatGPT式大语言模型PyTorch教程",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/rasbt/LLMs-from-scratch",
+  "summary": "该项目提供了一套完整的从零实现ChatGPT类大语言模型的分步教程，使用PyTorch框架，涵盖分词器、注意力机制、预训练、指令微调、微调等核心环节。内容以Jupyter Notebook形式呈现，适合系统学习LLM内部原理，兼具理论讲解与实践代码，是深入理解大语言模型构建过程的高质量开源资源。",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "reasoning",
+    "code-generation"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-10-10T14:09:02Z",
+  "updated_at": "2026-10-10T14:09:02Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 106315,
+    "original_name": "rasbt/LLMs-from-scratch",
+    "language": "Jupyter Notebook",
+    "highlights": []
+  }
+}
