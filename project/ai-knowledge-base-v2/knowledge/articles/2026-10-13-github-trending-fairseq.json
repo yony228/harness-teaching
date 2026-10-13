@@ -1,0 +1,24 @@
+{
+  "id": "gith-20261013-016",
+  "title": "Meta开源序列到序列AI工具包fairseq",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/facebookresearch/fairseq",
+  "summary": "fairseq是Meta AI Research用Python编写的序列到序列建模工具包，基于PyTorch构建，支持机器翻译、语言建模、文本生成等任务。提供丰富的预训练模型和可复现的研究实现，模块化设计便于自定义模型与训练流程，是NLP研究和工业应用的重要基础框架。",
+  "tags": [
+    "llm",
+    "code-generation",
+    "fine-tuning"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-10-13T15:29:47Z",
+  "updated_at": "2026-10-13T15:29:47Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 32209,
+    "original_name": "facebookresearch/fairseq",
+    "language": "Python",
+    "highlights": []
+  }
+}

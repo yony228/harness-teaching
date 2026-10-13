@@ -1,0 +1,26 @@
+{
+  "id": "gith-20261013-001",
+  "title": "AutoGPT：面向大众的自主AI代理开源平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "summary": "AutoGPT是GitHub上星标超过18.7万的开源项目，致力于让每个人都能使用和构建AI代理。项目基于Python开发，支持OpenAI GPT、Claude、Llama等多种大语言模型，提供自主代理框架，使AI能够自主分解任务、调用工具并完成复杂目标，大幅降低AI代理开发门槛，是agentic AI领域最具影响力的开源项目之一。",
+  "tags": [
+    "agent",
+    "llm",
+    "multi-agent",
+    "tool-use",
+    "code-generation"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-10-13T15:29:47Z",
+  "updated_at": "2026-10-13T15:29:47Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 187555,
+    "original_name": "Significant-Gravitas/AutoGPT",
+    "language": "Python",
+    "highlights": []
+  }
+}
