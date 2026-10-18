@@ -1,0 +1,24 @@
+{
+  "id": "gith-20261018-014",
+  "title": "DragGAN：基于拖拽的交互式生成图像编辑",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/XingangPan/DragGAN",
+  "summary": "DragGAN 是 SIGGRAPH 2023 官方代码，提出一种通过拖拽控制点来交互式编辑生成图像的方法。用户只需指定图像中某点的目标位置，算法即可在生成对抗网络的潜在空间中优化，使内容精确移动到目标处。该方法支持变形、旋转、拉伸等操作，无需额外训练或标注，显著提升了生成模型的可控性和实用性，获得超过 3.5 万星标。",
+  "tags": [
+    "vision",
+    "generative-adversarial-network",
+    "image-manipulation"
+  ],
+  "score": 9,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-10-18T12:23:35Z",
+  "updated_at": "2026-10-18T12:23:35Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 35726,
+    "original_name": "XingangPan/DragGAN",
+    "language": "Python",
+    "highlights": []
+  }
+}
