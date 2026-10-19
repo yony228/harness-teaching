@@ -1,0 +1,23 @@
+{
+  "id": "gith-20261019-002",
+  "title": "开源社区共建的ChatGPT提示词大全与自托管平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/f/prompts.chat",
+  "summary": "该项目前身为Awesome ChatGPT Prompts，汇集了社区共享的各类高质量提示词，涵盖ChatGPT、Claude、Gemini等多种大模型。采用Next.js和TypeScript构建，支持机构自托管，实现数据完全私有。拥有超过17万星标，是提示词工程领域最具影响力的开源资源之一，适合学习提示词设计与LLM应用实践。",
+  "tags": [
+    "llm",
+    "prompt-engineering"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-10-19T15:12:35Z",
+  "updated_at": "2026-10-19T15:12:35Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 173542,
+    "original_name": "f/prompts.chat",
+    "language": "HTML",
+    "highlights": []
+  }
+}
