@@ -1,0 +1,22 @@
+{
+  "id": "gith-20261102-018",
+  "title": "AI专家学习路线图：从入门到精通的完整指南",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
+  "summary": "该项目提供了一份系统化的AI专家成长路线图，涵盖数据分析、数据科学、机器学习、深度学习、神经网络等核心领域，并规划了从基础到进阶的学习路径与学习计划。凭借超过3.1万星标，它已成为AI学习者广泛认可的导航资源，适合作为构建完整知识体系的参考框架。",
+  "tags": [
+    "llm"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-11-02T17:40:59Z",
+  "updated_at": "2026-11-02T17:40:59Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 31331,
+    "original_name": "AMAI-GmbH/AI-Expert-Roadmap",
+    "language": "JavaScript",
+    "highlights": []
+  }
+}
