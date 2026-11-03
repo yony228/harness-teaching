@@ -1,0 +1,23 @@
+{
+  "id": "gith-20261103-002",
+  "title": "开源提示词社区与自托管平台",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/f/prompts.chat",
+  "summary": "这是一个前身为Awesome ChatGPT Prompts的开源项目，汇集社区分享的ChatGPT、Claude、Gemini等大模型提示词，支持发现、收藏与组织内部自托管，强调隐私保护。项目采用MDX与Next.js/TypeScript构建，拥有超17.5万星标，是提示词工程领域的重要资源库，适合学习和复用高质量提示词。",
+  "tags": [
+    "llm",
+    "prompt-engineering"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-11-03T15:42:59Z",
+  "updated_at": "2026-11-03T15:42:59Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 175694,
+    "original_name": "f/prompts.chat",
+    "language": "MDX",
+    "highlights": []
+  }
+}
