@@ -1,0 +1,22 @@
+{
+  "id": "gith-20261104-005",
+  "title": "实时换脸与一键视频深度伪造工具",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/hacksider/Deep-Live-Cam",
+  "summary": "Deep-Live-Cam是一个基于Python的开源实时换脸工具，仅需单张图片即可实现实时摄像头换脸和一键视频深度伪造。项目基于GAN技术，支持实时面部替换，星标超过9.7万，在深度伪造和AI换脸领域具有极高关注度，为视觉生成技术提供了易用的实践工具。",
+  "tags": [
+    "vision"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-11-04T15:54:55Z",
+  "updated_at": "2026-11-04T15:54:55Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 97618,
+    "original_name": "hacksider/Deep-Live-Cam",
+    "language": "Python",
+    "highlights": []
+  }
+}
