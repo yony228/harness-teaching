@@ -1,0 +1,23 @@
+{
+  "id": "gith-20261110-018",
+  "title": "Rust原生高性能事件驱动交易引擎",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/nautechsystems/nautilus_trader",
+  "summary": "Nautilus Trader是一个生产级Rust原生交易引擎，采用确定性事件驱动架构，支持算法交易、加密货币、股票、外汇、期货、期权及体育博彩等多资产类别。集成人工智能与机器学习能力，同时提供Python接口，兼顾高性能与易用性，获得超3万星标。",
+  "tags": [
+    "deployment",
+    "agent"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "advanced",
+  "created_at": "2026-11-10T16:00:27Z",
+  "updated_at": "2026-11-10T16:00:27Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 31435,
+    "original_name": "nautechsystems/nautilus_trader",
+    "language": "Rust",
+    "highlights": []
+  }
+}
