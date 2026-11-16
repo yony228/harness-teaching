@@ -1,0 +1,25 @@
+{
+  "id": "gith-20261116-020",
+  "title": "Awesome AI Agents：自主智能体资源大全",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/e2b-dev/awesome-ai-agents",
+  "summary": "该仓库汇集了各类AI自主智能体项目，涵盖AutoGPT、BabyAGI、GPT-Engineer、Copilot等代表性工具，并涉及OpenAI、GPT-4、Python等生态。作为星标超3万的Awesome列表，它为开发者提供了快速了解和筛选自主智能体方案的入口，适合追踪多智能体与工具使用方向的技术动态。",
+  "tags": [
+    "agent",
+    "multi-agent",
+    "tool-use",
+    "code-generation"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-11-16T17:46:58Z",
+  "updated_at": "2026-11-16T17:46:58Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 30956,
+    "original_name": "e2b-dev/awesome-ai-agents",
+    "language": "",
+    "highlights": []
+  }
+}
