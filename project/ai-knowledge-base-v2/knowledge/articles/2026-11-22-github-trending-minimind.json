@@ -1,0 +1,23 @@
+{
+  "id": "gith-20261122-009",
+  "title": "两小时从零训练64M大模型的开源项目",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/jingyaogong/minimind",
+  "summary": "MiniMind 是一个极简的大语言模型训练项目，目标是让开发者在约两小时内从零训练出一个 64M 参数的小型 LLM。项目用 Python 实现，代码精简、流程完整，覆盖数据准备、模型结构、训练与推理等环节，适合作为理解 LLM 原理与动手实践的入门教程，降低了从零训练大模型的门槛。",
+  "tags": [
+    "llm",
+    "fine-tuning"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "beginner",
+  "created_at": "2026-11-22T15:50:51Z",
+  "updated_at": "2026-11-22T15:50:51Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 68490,
+    "original_name": "jingyaogong/minimind",
+    "language": "Python",
+    "highlights": []
+  }
+}
