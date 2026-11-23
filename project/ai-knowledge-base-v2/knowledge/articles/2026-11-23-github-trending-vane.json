@@ -1,0 +1,25 @@
+{
+  "id": "gith-20261123-013",
+  "title": "Vane：开源AI搜索引擎，支持RAG与多智能体",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/ItzCrazyKns/Vane",
+  "summary": "Vane是一个基于TypeScript构建的AI驱动回答引擎，集成SearxNG与LLM能力，实现RAG检索增强生成和多智能体协作。项目支持自托管部署，具备开源AI搜索、智能问答等特性，星标超3.8万，适合研究AI搜索与RAG应用的开发者参考。",
+  "tags": [
+    "rag",
+    "agent",
+    "llm",
+    "deployment"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-11-23T19:44:13Z",
+  "updated_at": "2026-11-23T19:44:13Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 38296,
+    "original_name": "ItzCrazyKns/Vane",
+    "language": "TypeScript",
+    "highlights": []
+  }
+}

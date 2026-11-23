@@ -1,0 +1,25 @@
+{
+  "id": "gith-20261123-008",
+  "title": "跨平台AI研究智能体技能工具",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/mvanhorn/last30days-skill",
+  "summary": "该项目是一个AI智能体技能，能够跨Reddit、X、YouTube、Hacker News、Polymarket及网页等多个平台对任意主题进行深度研究，并合成有依据的摘要。它结合了多源数据采集、自然语言处理与自动化能力，适用于OSINT、数据科学和命令行场景，支持Python生态，为智能体提供实时、多角度的信息聚合与总结能力。",
+  "tags": [
+    "agent",
+    "llm",
+    "tool-use",
+    "reasoning"
+  ],
+  "score": 7,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-11-23T19:44:13Z",
+  "updated_at": "2026-11-23T19:44:13Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 73328,
+    "original_name": "mvanhorn/last30days-skill",
+    "language": "Python",
+    "highlights": []
+  }
+}
