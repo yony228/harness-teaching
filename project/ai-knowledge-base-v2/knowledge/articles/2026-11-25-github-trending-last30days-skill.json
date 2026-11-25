@@ -1,0 +1,25 @@
+{
+  "id": "gith-20261125-008",
+  "title": "跨平台话题研究AI技能：聚合多源信息生成摘要",
+  "source_type": "github_trending",
+  "source_url": "https://github.com/mvanhorn/last30days-skill",
+  "summary": "该项目是一个AI agent技能，能够针对任意话题在Reddit、X、YouTube、Hacker News、Polymarket及网页等多个平台进行信息检索，并自动综合生成有据可依的摘要。它结合了LLM与多源数据采集能力，适用于开源情报（OSINT）、趋势分析和自动化研究等场景，以Python实现并提供命令行交互方式，扩展了agent在真实网络环境下的工具使用与信息整合能力。",
+  "tags": [
+    "agent",
+    "llm",
+    "tool-use",
+    "rag"
+  ],
+  "score": 8,
+  "status": "draft",
+  "audience": "intermediate",
+  "created_at": "2026-11-25T18:21:00Z",
+  "updated_at": "2026-11-25T18:21:00Z",
+  "publish_channels": [],
+  "metadata": {
+    "stars": 74948,
+    "original_name": "mvanhorn/last30days-skill",
+    "language": "Python",
+    "highlights": []
+  }
+}
